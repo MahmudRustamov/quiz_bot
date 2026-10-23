@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "milliy-quiz-bot"
+version = "0.1.0"
+description = "Independent Uzbek mock examinations with versioned Rasch and PCM calibration"
+requires-python = ">=3.12"
+dependencies = [
+  "aiogram>=3.26,<4", "SQLAlchemy[asyncio]>=2.0.36,<2.1", "asyncpg>=0.30,<1",
+  "alembic>=1.14,<2", "pydantic-settings>=2.7,<3", "numpy>=2.2,<3",
+  "scipy>=1.15,<2", "pandas>=2.2,<4", "openpyxl>=3.1,<4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "pytest-asyncio>=0.25,<2", "aiosqlite>=0.21,<1", "ruff>=0.9,<1"]
+
+[project.scripts]
+quiz-bot = "quizbot.__main__:main"
+quiz-admin = "quizbot.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["quizbot*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = ["postgres: requires TEST_DATABASE_URL pointing to a disposable PostgreSQL database"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

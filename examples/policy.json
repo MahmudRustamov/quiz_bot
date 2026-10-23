@@ -1,0 +1,16 @@
+{
+  "boundaries": {
+    "A+": 70.0,
+    "A": 65.0,
+    "B+": 60.0,
+    "B": 55.0,
+    "C+": 50.0,
+    "C": 46.0
+  },
+  "missing_policy": "zero",
+  "min_students": 100,
+  "min_item_responses": 30,
+  "min_category_count": 5,
+  "pcm_assumptions_confirmed": false,
+  "assumptions_note": ""
+}

@@ -1,0 +1,26 @@
+{
+  "number": 1,
+  "kind": "mcq",
+  "statement": "Dastur sinovi: 2 + 2 = ?",
+  "options": {
+    "A": "4",
+    "B": "5"
+  },
+  "image_file_id": null,
+  "material_keys": [],
+  "rubric": {},
+  "needs_review": false,
+  "pcm": false,
+  "parts": [
+    {
+      "label": "",
+      "prompt": "",
+      "weight": 1.0,
+      "accepted": [
+        "A"
+      ],
+      "ignore_case": true,
+      "manual_review": false
+    }
+  ]
+}

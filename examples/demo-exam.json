@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "title": "Dastur sinovi — namuna (haqiqiy imtihon emas)",
+  "subject": null,
+  "simple_release_policy": null,
+  "answer_review_enabled": true,
+  "duration_minutes": 15,
+  "policy": {
+    "boundaries": {
+      "A+": 70.0,
+      "A": 65.0,
+      "B+": 60.0,
+      "B": 55.0,
+      "C+": 50.0,
+      "C": 46.0
+    },
+    "missing_policy": "zero",
+    "min_students": 100,
+    "min_item_responses": 30,
+    "min_category_count": 5,
+    "pcm_assumptions_confirmed": false,
+    "assumptions_note": ""
+  },
+  "materials": [],
+  "questions": [
+    {
+      "number": 1,
+      "kind": "mcq",
+      "statement": "Dastur sinovi: 2 + 2 = ?",
+      "options": {
+        "A": "4",
+        "B": "5"
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {},
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "A"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "kind": "matching",
+      "statement": "Dastur sinovi: «bir» soniga mos variantni tanlang.",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5",
+        "F": "6"
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {},
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "A"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "kind": "written",
+      "statement": "Dastur sinovi: «kitob» so‘zini yozing.",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {},
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "kitob"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "kind": "multipart",
+      "statement": "Dastur sinovi: A qismda «bir», B qismda «ikki» deb yozing.",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "A": "Exact accepted variant; one point",
+        "B": "Exact accepted variant; one point"
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "bir",
+            "1"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        },
+        {
+          "label": "B",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "ikki",
+            "2"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    }
+  ]
+}

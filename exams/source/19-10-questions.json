@@ -1,0 +1,222 @@
+{
+  "title": "19.10 — Ona tili va adabiyot MS mock testi",
+  "duration_minutes": 180,
+  "questions": [
+    {
+      "number": 1, "kind": "mcq", "pages": [1],
+      "statement": "To‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {"A": "injener, taassuf, masshtab", "B": "iftixor, iqtidor, daxildor", "C": "bayon, faravon, rango-rang", "D": "kampozitor, tavsif, korxona"}
+    },
+    {
+      "number": 2, "kind": "mcq", "pages": [1],
+      "statement": "To‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {"A": "mo‘l-ko‘lchilik, kundan kunga, rang-tus", "B": "avto-bekat, karvon saroy, o‘tqopi", "C": "ma’orif, e’tiqod, muqova", "D": "bo‘z-tuproq, shirinmiya, kilovatt-soat."}
+    },
+    {
+      "number": 3, "kind": "mcq", "pages": [1],
+      "statement": "So‘zning muqobili xato berilgan javobni aniqlang.\n\nPDFdagi chizma juftliklari quyida o‘qlar bilan ko‘rsatildi.",
+      "options": {"A": "Negativ → haqorat", "B": "Rekommendatsiya → tavsiya", "C": "Abzas → xatboshi", "D": "Sotsial → ijtimoiy"}
+    },
+    {
+      "number": 4, "kind": "mcq", "pages": [1],
+      "statement": "Nutqda o‘zaro ma’nodosh bo‘la oladigan so‘zlar qatorini aniqlang.\n\nPDFdagi har bir uchburchakda uchala so‘z o‘zaro ikki tomonlama o‘qlar bilan bog‘langan; variantlarda shu uchliklar berildi.",
+      "options": {"A": "Mavj ↔ To‘lqin ↔ To‘fon ↔ Mavj", "B": "Keskir ↔ O‘tkir ↔ Sezgir ↔ Keskir", "C": "Quruq ↔ Rasmiy ↔ Sovuq ↔ Quruq", "D": "Shakl ↔ Hajm ↔ Sig‘im ↔ Shakl"}
+    },
+    {
+      "number": 5, "kind": "mcq", "pages": [1],
+      "statement": "Gapdagi qo‘shimcha qo‘llash bilan bog‘liq xatolikni aniqlang.\n\nChin do‘st — qo‘lingizni ushlab turib, yuragingizni his qiladigan odamdir. U sizni har qanday holatingizda ham tushunib, og‘ir damlarda yoningizda turadi va hech qachon yolg‘iz qoldirmaydi.",
+      "options": {"A": "Tushum kelishigi o‘rnida qaratqich kelishigini qo‘llash lozim.", "B": "Orttirma nisbat qo‘shimchasi xato qo‘llangan.", "C": "O‘zlik nisbati qo‘shimchasi bilan bog‘liq imloviy xatolik mavjud.", "D": "Kesimlik qo‘shimchasi xato qo‘llangan."}
+    },
+    {
+      "number": 6, "kind": "mcq", "pages": [2],
+      "statement": "Quyidagi qaysi gapda uslubiy xato qo‘llangan so‘z mavjud?",
+      "options": {"A": "Qonunchilikka ko‘ra pul mablag‘larini naqdlashtirish yoki bir kartadan boshqa kartaga o‘tkazish uchun vositachilik haqi undiriladi.", "B": "Elektron to‘lovlar bank kartalari, to‘lov talabnomalari, mobil hamyonlar yordamida to‘lov qilinadi.", "C": "Ma’lumki, har qanday elekrton to‘lov to‘lov tizimining subyektlari o‘rtasida tuzilgan shartnomalar asosida amalga oshiriladi.", "D": "Naqd pul shaklidagi to‘lovlarni amalga oshirish oson, ammo hozirda to‘lovlarni elektron amalga oshirish ham ancha qulay."}
+    },
+    {
+      "number": 7, "kind": "mcq", "pages": [2],
+      "statement": "Berilgan parchadagi so‘zlarning morfem tarkibi haqidagi hukmlardan nechtasi to‘g‘ri?\n\nHamma uchun vijdon erkinligi kafolatlanadi. Har kim xohlagan dinga e’tiqod qilish yoki hech qaysi dinga e’tiqod qilmaslik huquqiga ega. Diniy qarashlarni majburan singdirishga yo‘l qo‘yilmaydi.\n\n1) Asosga yangi ma’no beruvchi qo‘shimchalarning ketma-ket qo‘shilishi kuzatilgan.\n2) Ikki xil usulda so‘z yasalishi kuzatilgan.\n3) Yordamchi fe’lni so‘z yasovchi qo‘shimcha bilan almashtirish mumkin.\n4) Gapda qo‘llangan ko‘makchini kelishik qo‘shimchasi bilan almashtirish mumkin.\n5) Gapda to‘rt xil turkumga oid so‘z yasovchi qo‘shimcha ishtirok etgan.",
+      "options": {"A": "ikkitasi", "B": "uchtasi", "C": "to‘rttasi", "D": "beshtasi"}
+    },
+    {
+      "number": 8, "kind": "mcq", "pages": [2],
+      "statement": "Quyidagi parchada qatnashgan fe’l shakllari haqida nechta hukm to‘g‘ri ekanligini toping.\n\nDavlat fuqarolarning ekologik huquqlarini ta’minlash va atrof-muhitga zararli ta’sir ko‘rsatilishiga yo‘l qo‘ymaslik maqsadida shaharsozlik faoliyati sohasida jamoatchilik nazoratini amalga oshirish uchun shart-sharoitlar yaratadi.\n\n1. Sodda yasama fe’l qatnashgan.\n2. Qo‘shma fe’l qatnashgan.\n3. Ko‘makchi fe’l qatnashagan.\n4. Bo‘lishsiz fe’l qatnashgan.\n5. Uch xil nisbatdagi fe’l qatnashgan.",
+      "options": {"A": "ikkitasi", "B": "uchtasi", "C": "to‘rttasi", "D": "beshtasi"}
+    },
+    {
+      "number": 9, "kind": "mcq", "pages": [2],
+      "statement": "Quyida raqamlar bilan ajratib ko‘rsatilgan so‘zlarni qaysi bog‘lovchilar vositasida bog‘lash mumkinligini aniqlang.\n\nChindan ham buyuklik [1] purviqor tog‘larda, [2] azim daryolarda, balki o‘zligini anglagan, ammo kamtarlikni libos qilgan inson qalbida yashaydi.",
+      "options": {"A": "yo..., yo...", "B": "goh..., goh...", "C": "hamda", "D": "na..., na..."}
+    },
+    {
+      "number": 10, "kind": "mcq", "pages": [2],
+      "statement": "Gapning sintaktik tahliliga oid to‘g‘ri hukm berilgan javobni aniqlang.\n\nBilmaganidan bilishga intilmaslik — ayb, ammo bilgan xatolarini bila turib tuzatmaslik gunohdir.",
+      "options": {"A": "Ravish holi ot kesimga to‘g‘ridan to‘g‘ri tobelangan.", "B": "Sabab holini tobelantirgan ega mavjud", "C": "Gapda kesimning ifodalanishiga ko‘ra ikki turi qo‘llangan.", "D": "Vositasiz to‘ldiruvchi holga tobelangan."}
+    },
+    {
+      "number": 11, "kind": "mcq", "pages": [3],
+      "statement": "Quyidagi gap haqida qaysi javobda xato ma’lumot berilgan?\n\nBu qadimiy obida temuriylar hukmronligi davrida qayta tiklangan edi.",
+      "options": {"A": "Fe’lning fe’lga tobelanishi kuzatilgan.", "B": "Qaralmish bevosita kesimga tobelangan.", "C": "Yasama so‘zning yasama so‘zga tobelanishi bilan bog‘liq otli birikma qatnashgan.", "D": "Ham tobe, ham hokim bo‘lak vazifasini bajargan ot qatnashgan."}
+    },
+    {
+      "number": 12, "kind": "mcq", "pages": [3],
+      "statement": "Berilgan misralardagi tinish belgisi bilan bog‘liq xatolikni aniqlang.\n\nDunyoning tilagi – samari ham biz –\nAql ko‘zin qorasi – javhari ham biz.\nTo‘garak jahonni uzuk deb bilsak,\nShaksiz, uning ko‘zi – gavhari ham biz.",
+      "options": {"A": "Bog‘lovchisiz qo‘shma gaplar orasidagi tinish belgisi xato qo‘llangan.", "B": "Ajratilgan bo‘lakdan oldin kelgan tinish belgisida xatolik mavjud.", "C": "Kiritmani ajratishda tinish belgisidan noo‘rin foydalanilgan.", "D": "Ega va ot kesim o‘rtasidagi tinish belgisi tushib qolgan."}
+    },
+    {
+      "number": 13, "kind": "mcq", "pages": [3],
+      "statement": "“Oq kema” asaridan olingan ushbu parcha mazmuni haqida to‘g‘ri mulohazani aniqlang.\n\n“Ko‘pni ko‘rgan kishilar keksa Mo‘minni Mo‘min chaqqon deb atashardi. Bu atrofda uni hamma tanirdi, u ham hammani tanirdi, u hammani bilardi. U ochiqko‘ngil, hatto sal-pal biladigan odamiga ham biron yaxshilik qilishga tayyorligi, har kimning xizmatiga hozir-u nozirligi, hammaga sadoqatli va xushmuomalaligi tufayli shunday laqab olgandi. Ammo tillani tekin tarqatishganda hech kim uchun qadri qolmaganidek, uning jonbozligi qadriga ham hech kim yetmasdi. Uning yoshidagi kishilarga qanday hurmat, izzatda bo‘lishmasin, Mo‘minga hech kim bunday munosabatda bo‘lmasdi. U bilan betakalluf muomala qilishardi”.",
+      "options": {"A": "Tillani tekin tarqatish o‘sha vaqtlarda urf bo‘lgani uchun uning qadri insonlar orasida tushib ketgan edi.", "B": "Mo‘min chol zamondan ortda qolgan, yosh avlod vakillari bilan til topishishi qiyin bo‘lgani uchun uni hech kim mensimasdi.", "C": "Yoshlar orasida keksalarga bo‘lgan hurmat va ehtiromning susayib borayotgani jamiyat uchun achchiq oqibatlarga olib kelayotgani ta’kidlanadi.", "D": "Odamlarning samimiylik, soddalik va har ishga jonbozlik ko‘rsatish kabi ulug‘ insoniy tuyg‘ularni mensimay qo‘ygani tanqid ostiga olingan."}
+    },
+    {
+      "number": 14, "kind": "mcq", "pages": [3],
+      "statement": "“Kecha va kunduz” asaridan olingan ushbu parcha mazmuni haqida to‘g‘ri mulohazani aniqlang.\n\n“Hali ham ko‘p qimmatbaho narsalarni berding, Miryoqub. Sening madaniyatga xizmating katta... O‘tgan yil bir tarix kitobi bergan eding, u to‘g‘rida Petrograddagi kattakon majmualarga maqolalar yozdim. Sening nomingni ham ko‘rsatdim. Hozir u kitob to‘g‘risida Angliston, Farangiston va Lamsa (nemis) mamlakatlarida kattakon majmualarga ko‘p narsalar yozildi. Rahmat senga, Miryoqub! Katta xizmat qilding”.",
+      "options": {"A": "Mahalliy xalq vakillarining yutuqlaridan boshqa millatlar ham bahramand bo‘layotgani ochib berilgan.", "B": "Miryoqubning ilmga bo‘lgan rag‘bati qay daraja yuksak ekani qalamga olingan.", "C": "Qo‘lyozmalarni qadrlaydigan g‘arblik ilmparvarlarning holati ko‘rsatilgan.", "D": "Bosqinchilarning mahalliy qo‘lyozmalarni talon-toroj qilib, mamlakatdan olib chiqqib ketgani bayon etilgan."}
+    },
+    {
+      "number": 15, "kind": "mcq", "pages": [3,4],
+      "statement": "“Temir xotin” asaridan olingan ushbu parcha mazmuni haqida to‘g‘ri mulohazani aniqlang.\n\n“Alomat: — Yig‘laysiz... (Qo‘llarini Qo‘chqorning boshi uzra harakatlantirib.) Yig‘laysiz... Chunki, juda ezilgansiz... Yuragingizga qil sig‘maydi... Ich-ichingizdan bir nima toshib kelyapti... Hech kimning rahmi kelmaydi, birov dardingizga sherik ham bo‘lmaydi... O‘z yog‘ingizga o‘zingiz qovrilib yashayapsiz... Aft-angoringizga bir qarang, qirqqa kirgan qirchillama yigisiz-u, ko‘rgan odam sizni ellikka kirgan deb o‘ylaydi. Qurib-qaqshab boryapsiz... Esingizni tanibsizki, tinmay mehnat qilasiz, lekin hech biringiz ikki bo‘lmaydi. Ro‘zg‘or, bola-chaqa tashvishi deysiz, afsuski, bu tashvishlarning cheki yo‘q. Ertalabdan kechgacha chumoliday g‘imir-g‘imir qilasiz-u, rohatini ko‘rmaysiz. Kiyib olgan kiyimingizga qarang, yengil sanoat yetishtirayotgan hamma brak mahsulot siz va sizga o‘xshaganlarga nasib qiladi. Bu nima? Shu issiqda kim neylon ko‘ylak kiyadi?”",
+      "options": {"A": "Qo‘chqor timsolida dangasa, mana shu holatga ko‘nib yashaydigan loqayd insonlar ko‘rsatilgan.", "B": "To‘xstovsiz mehnat qiladigan, ammo bu mehnatning rohatini ko‘ra olmayotgan millatning fojeaviy taqdiri ochib berilgan.", "C": "O‘sha vaqtlarda aholi orasida neylon ko‘ylak urf bo‘lgani keltirilgan.", "D": "Mehnatkash odamning xor bo‘lmasligi, albatta, uning xizmatlari munosib taqdirlanishi qalamga olingan."}
+    },
+    {
+      "number": 16, "kind": "mcq", "pages": [4],
+      "statement": "“Evrilish” asaridan olingan ushbu parchani o‘qing va qahramon holati haqida to‘g‘ri mulohazani aniqlang.\n\n“..Endi tonggacha Gregorning oldiga hech kim kirmaydi albatta, demak, buyog‘iga hayotini qanday o‘zgartirish to‘g‘risida birov xalaqit bermagan holda o‘ylab olish uchun yetarlicha vaqti bor edi. Ammo polda cho‘zilib yotishga majbur bo‘layotgan baland shiftli bo‘m-bo‘sh xona uni vahimaga solardi; u bu xonada mana besh yildan buyon yashayotgan bo‘lsa ham qo‘rqinchining sababini bilmasdi; u deyarli o‘ziga hisob bermagan holda o‘girilib, hech uyalmay, shoshilib divan ostiga o‘rmaladi, bu yer uning uchun tor, orqasi biroz qisilganligi, boshini ko‘tara olmasligiga qaramasdan o‘ziga qulay ekanligini darhol his qildi, faqat divan ostida to‘la o‘rnashib olishi uchun tanasi juda kengligidan afsuslandi. Bu yerda u butun tun bo‘yi qoldi, buning bir qismini tez-tez ochlik cho‘chitib, uyg‘otib turgan mudrash holida, qisman hozircha o‘zini tinch tutishi kerakligi, bugungi holati bilan oilasiga keltirgan tashvishlarni yengillashtirish uchun chidamli va itoatli bo‘lishga majburligi to‘g‘risidagi xulosaga muttasil olib keladigan g‘am-fig‘onda va alg‘ov-dalg‘ov umidlarda o‘tkazdi”.",
+      "options": {"A": "Qahramonning hayoti asta-sekin zulmat tomonga og‘ayotganini his qilgan holda, yolg‘izlik, qo‘rquv va o‘zini past tutish hissi bilan iztirob chekayotgan ruhiy holati tasvirlangan.", "B": "Vaziyatni sovuqqonlik bilan baholab, kelajakka aniq reja tuzayotgan va ichki barqarorlikni saqlab qolgan holat aks ettirilgan.", "C": "Oilasi oldidagi burchini chuqur his qilgan, mas’uliyatli va vaziyatni yengish uchun faol choralar izlayotgan inson holati ko‘rsatilgan.", "D": "Atrofdagi voqealarga befarq, hissiy jihatdan mutlaqo loqayd ruhiy kechinmalar ochib berilgan."}
+    },
+    {
+      "number": 17, "kind": "mcq", "pages": [4],
+      "statement": "Abdulla Oripov qalamiga mansub quyidagi she’riy parcha mazmuniga oid to‘g‘ri hukmni aniqlang.\n\nHAR NECHUK\nDunyoda har kimning bor o‘z matlabi,\nTuya so‘rab bo‘lmas echkiboqardan.\nPismiqdan faylasuf chiqmagan kabi,\nHaqgo‘y ham chiqmaydi betgachopardan.\n\nKimo‘zar o‘ynasang toshbaqa bilan,\nBo‘yningga olursan unga tenglikni.\nDunyoning ishlari shunaqa ekan,\nHar nechuk odat qil fe’li kenglikni.",
+      "options": {"A": "Har qanday vaziyatda ham haqiqatni odamlarning yuziga shartta aytish.", "B": "O‘zidan past yoki saviyasi past kimsalar bilan bahslashib, ularga o‘z ustunligini isbotlash.", "C": "Atrofdagilarning imkoniyati va tabiatini to‘g‘ri baholab, mayda gap-so‘zlarga e’tibor bermaslik.", "D": "Faqat yuqori martabali va imkoniyati keng insonlar bilan muloqotda bo‘lish."}
+    },
+    {
+      "number": 18, "kind": "mcq", "pages": [5,6], "material_keys": ["teleskop"],
+      "statement": "Matn mazmuniga oid to‘g‘ri ma’lumotni aniqlang.",
+      "options": {"A": "Quyosh sistemasidagi sayyoralar teleskop ixtiro etilgandan so‘nggina kashf qilina boshlagan.", "B": "Olimlar “Xabbl” teleskopini ta’mirlash vaqtida uning tarkibiy tuzilishini o‘zgartirishga majbur bo‘lishgan.", "C": "Uilyam Gershel teleskopdan foydalangan ilk olim hisoblangan.", "D": "Galileo Galiley teleskop orqali Yupiter sayyorasini kashf etgan."}
+    },
+    {
+      "number": 19, "kind": "mcq", "pages": [6], "material_keys": ["teleskop"],
+      "statement": "Matn mazmuniga oid to‘g‘ri ma’lumotni aniqlang.",
+      "options": {"A": "Gerdshelgacha odamlar Uran sayyorasi haqida hech qanday tasavvurga ega bo‘lishmagan.", "B": "Teleskop astronomiyaga nafaqat yangi osmon jismlarini kashf etish, balki ilgari noto‘g‘ri talqin qilingan obyektlarni qayta tushunish imkonini ham bergan.", "C": "Uilyam Gershel tomonidan Uran sayyorasini kashf etish astronomiyada tub burilish yasagan.", "D": "“Xabbl” teleskopi osmon jismlarini Yer sathidan kuzatuvchi mukammal teleskoplardan biri hisoblangan."}
+    },
+    {
+      "number": 20, "kind": "mcq", "pages": [6], "material_keys": ["teleskop"],
+      "statement": "Matn mazmuniga oid noto‘g‘ri ma’lumotni aniqlang.",
+      "options": {"A": "Qadimgi olimlar sayyoralarning harakatlanish yo‘nalishini bilmaganliklari bois ularni yulduz sifatida talqin etishgan.", "B": "Qadimgi munajjimlar qo‘zg‘almas yulduzlarni turkumlarga birlashtirib, ularga nom bergan va tasniflaganlar.", "C": "Teleskopning kashf etilishi Oy va Quyoshni yanada chuqurroq tadqiq etishga zamin yaratdi.", "D": "Ilk teleskoplar inson ko‘ra oladigan diapazondagi axborotlarnigina o‘rganish imkoniyatini bergan."}
+    },
+    {
+      "number": 21, "kind": "mcq", "pages": [6], "material_keys": ["teleskop"],
+      "statement": "Matn mazmuniga oid noto‘g‘ri ma’lumotni aniqlang.",
+      "options": {"A": "Qadimgi odamlar yulduz turkumlari yordamida yil fasllari va tabiat hodisalarining davriy takrorlanishini aniqlashga erishganlar.", "B": "Galileo Galilei teleskop yordamida Jupiterning to‘rtta tabiiy yo‘ldoshini kuzatgan va bu ilm-fan uchun muhim kashfiyot bo‘lgan.", "C": "Uran sayyorasi bilan bir qatorda Yupiter ham aynan teleskop orqali kashf etilgan.", "D": "“Xabbl” orbitaga chiqarilgach, uning optik tizimidagi nuqsonni tuzatish uchun maxsus korreksiya tizimi o‘rnatilgan."}
+    },
+    {
+      "number": 22, "kind": "mcq", "pages": [6], "material_keys": ["teleskop"],
+      "statement": "Matnning qaysi qismida matn mazmunida uslubiy xatolikni yuzaga keltirgan gap mavjud?",
+      "options": {"A": "1", "B": "5", "C": "4", "D": "3"}
+    },
+    {
+      "number": 23, "kind": "mcq", "pages": [10], "material_keys": ["myunodi"],
+      "statement": "Matnning [1] qismida tasvirlangan holatga ko‘ra, shahar va qishloq xo‘jaligi haqida qanday xulosa qilish mumkin?",
+      "options": {"A": "Shahar va qishloq xo‘jaligi yuqori darajada rivojlangan, odamlar tinch va farovon yashamoqda.", "B": "Jamiyatda tashqi harakat ko‘p bo‘lsa-da, amalda unumdorlik va natija yo‘q, hamma narsa tartibsiz va samarasiz.", "C": "Dehqonlar eski usullar bilan ishlashiga qaramay, hosildorlik barqaror saqlanib turibdi.", "D": "Shahar aholisi asosan ilm-fan bilan shug‘ullanib, dalalarda ish kamaygan."}
+    },
+    {
+      "number": 24, "kind": "mcq", "pages": [10], "material_keys": ["myunodi"],
+      "statement": "Matnning [2] qismida tasvirlangan voqealar rivojiga ko‘ra, muallif kuzatuvida qaysi holat kontrast (qarama-qarshilik) sifatida berilgan?",
+      "options": {"A": "Myunodi an’anaviy usullari bilan boshqarilgan unumdor, tartibli yerlar bilan xayolparastlar tajribalari sabab samarasiz va natijasiz qolgan dalalar o‘rtasidagi keskin farq.", "B": "Shahar va qishloq o‘rtasidagi yerlarning unumdorligi va hosilga ishlov berish texnologiyalari o‘rtasidagi tafovut.", "C": "Turli xil yo‘llar bilan boylik orttirgan va xalq ahvoliga befarq Myunodi va dehqonlar o‘rtasidagi ochiq mojaro va qarama-qarshilik.", "D": "Yerlarning tabiiy sharoiti va iqlim o‘zgarishlari o‘rtasidagi bog‘liqlik."}
+    },
+    {
+      "number": 25, "kind": "mcq", "pages": [10], "material_keys": ["myunodi"],
+      "statement": "Matnning [3] qismida Myunodi holati qanday g‘oyani ifodalaydi?",
+      "options": {"A": "U o‘z qadriyatlariga sodiq qolib, jamiyat fikridan mustaqil yashashni davom ettiradi.", "B": "U jamiyat bosimi va tanqidlardan qochib, butunlay saroy hayotidan voz kechadi.", "C": "U jamiyat talablariga moslashish uchun o‘z qadriyatlaridan asta-sekin voz kechishga majbur bo‘layotganini ko‘rsatadi.", "D": "U jamiyatdagi yangi g‘oyalarni qo‘llab-quvvatlab, ularni faol targ‘ib qila boshlaydi."}
+    },
+    {
+      "number": 26, "kind": "mcq", "pages": [10], "material_keys": ["myunodi"],
+      "statement": "Matnning [4] qismida “xayolparastlar akademiyasi” faoliyati orqali qanday asosiy g‘oya ifodalanadi?",
+      "options": {"A": "Ilm-fan rivoji faqat amaliy natija bermaydigan, hayotdan uzilgan g‘oyalar orqali yuzaga keladi", "B": "Fan va texnika rivoji real hayot ehtiyojlariga tayanmaganda, katta va’dalarga qaramay jamiyatda tanazzul va tartibsizlik kuchayadi", "C": "Akademiyalar faqat matematik bilimlarni chuqurlashtirish bilan shug‘ullanishi kerak", "D": "Ilmiy loyihalar har doim tez natija berib, qisqa muddatda jamiyatni boyitadi"}
+    },
+    {
+      "number": 27, "kind": "mcq", "pages": [10], "material_keys": ["myunodi"],
+      "statement": "Matnning [5] qismida Myunodi va xayolparastlar o‘rtasidagi tegirmon loyihasi orqali qanday asosiy g‘oya ifodalanadi?",
+      "options": {"A": "Amaliy tajriba va real sharoit hisobga olinmagan loyihalar odatda muvaffaqiyasizlikka uchraydi va jamiyatda ishonchsizlikni kuchaytiradi.", "B": "Texnologik yangiliklar har doim an’anaviy usullardan ustun bo‘lib, tez va samarali natija beradi", "C": "Myunodi ilmiy yangiliklarni to‘liq qo‘llab-quvvatlab, loyihani muvaffaqiyatli yakunlaydi.", "D": "Tegirmon qurilishi faqat davlat aralashuvi bilan amalga oshiriladigan jarayondir."}
+    },
+    {
+      "number": 28, "kind": "mcq", "pages": [11], "material_keys": ["gazal"],
+      "statement": "G‘azal matla’si haqida berilgan to‘g‘ri hukmni aniqlang.",
+      "options": {"A": "Baytda xolning nuqtaday kichikligi litota san’atini hosil qilgan.", "B": "Yorning so‘zlari obi hayvon ustidagi tomchiga qiyoslangan.", "C": "Yor labi ustidagi nuqtadek xol husni ta’lil san’atini vujudga keltirgan.", "D": "La’l so‘zi orqali yor so‘zlari nazarda tutilgan."}
+    },
+    {
+      "number": 29, "kind": "mcq", "pages": [11], "material_keys": ["gazal"],
+      "statement": "2-bayt haqida berilgan xato hukmni aniqlang.",
+      "options": {"A": "Yorning qoshlari kamonga qiyoslangan.", "B": "Ko‘ngilga qadalgan hajr o‘qi kiprik ustidagi qonli yoshga qiyoslangan.", "C": "Baytda nido san’ati orqali yorga murojaat qilingan.", "D": "Yorning kipriklari oshiq qonini to‘kishi tashxis san’ati vujudga keltirgan."}
+    },
+    {
+      "number": 30, "kind": "mcq", "pages": [11], "material_keys": ["gazal"],
+      "statement": "4-bayt haqida xato hukmni aniqlang.",
+      "options": {"A": "Baytda oshiqning saboga murojaati aks ettirilgan.", "B": "Baytda tamsil san’atining chiroyli namunasi aks etgan.", "C": "Oshiq shamoldan o‘z ustiga tuproq sochishni so‘raydi.", "D": "Baytda qon to‘kilgan yerga tuproq sochish an’anasi keltirilgan."}
+    },
+    {
+      "number": 31, "kind": "mcq", "pages": [11], "material_keys": ["gazal"],
+      "statement": "G‘azal mazmuniga oid qaysi ma’lumot to‘g‘ri ekanligini aniqlang.",
+      "options": {"A": "Yorning sochlari alliteratsiya san’ati orqali tasvirlangan.", "B": "Yor lablarining g‘amlari sababli oshiq jismi qurigan xasga qiyoslangan.", "C": "Ko‘ngil choklarining davosi uchun ishq tig‘ini hozirlamoq lozimligi keltirilgan.", "D": "Yorning kipriklari oshiq holiga hasrat qilishi mavjud."}
+    },
+    {
+      "number": 32, "kind": "mcq", "pages": [11], "material_keys": ["gazal"],
+      "statement": "G‘azal maqta’si haqida berilgan noto‘g‘ri hukmni toping.",
+      "options": {"A": "Oshiq yor uchun jonini berishga ham tayyor.", "B": "Baytda xalqimizning mehmon ustidan sochiq sochish an’anasi haqida so‘z boradi.", "C": "Yor ko‘ngilga yaqin mehmonga qiyoslangan.", "D": "Oshiq tashrifidan xursand yorning sochiq sochishi keltirilgan."}
+    },
+    {
+      "number": 33, "kind": "matching", "pages": [12],
+      "statement": "Berilgan gap va sintaktik tahlilga oid izohni (A–F) to‘g‘ri moslashtiring.\n\nBoshginamga ag‘anagan katta tog‘lar, alvido!\nMen ketarman hasratlanib ruhi sog‘lar, alvido!",
+      "options": {"A": "atov gap", "B": "umumlashtiruvchi bo‘lak", "C": "so‘z-gap", "D": "ajratilgan bo‘lakli gap", "E": "ritorik so‘roq gap", "F": "shaxsi noma’lum gap"}
+    },
+    {
+      "number": 34, "kind": "matching", "pages": [12],
+      "statement": "Berilgan gaplar va sintaktik tahlilga oid izohni (A–F) to‘g‘ri moslashtiring.\n\nYigitning paltosi... Yo‘q, yodimda yo‘q...\nAniq, ko‘m-ko‘k edi qizning paltosi.\nBellarini quchgan belbog‘i ham ko‘k.\nHatto ko‘m-ko‘k edi to‘rtta tugmasi...",
+      "options": {"A": "atov gap", "B": "umumlashtiruvchi bo‘lak", "C": "so‘z-gap", "D": "ajratilgan bo‘lakli gap", "E": "ritorik so‘roq gap", "F": "shaxsi noma’lum gap"}
+    },
+    {
+      "number": 35, "kind": "matching", "pages": [12],
+      "statement": "Berilgan gaplar va sintaktik tahlilga oid izohni (A–F) to‘g‘ri moslashtiring.\n\nFazilatim, kam ila ko‘stim\nSizga ma’lum, olmoq kerak tan.\nO‘zim mergan bo‘lmagach, do‘stim,\nKimlarningdir otgan o‘qiman.",
+      "options": {"A": "atov gap", "B": "umumlashtiruvchi bo‘lak", "C": "so‘z-gap", "D": "ajratilgan bo‘lakli gap", "E": "ritorik so‘roq gap", "F": "shaxsi noma’lum gap"}
+    },
+    {
+      "number": 36, "kind": "written", "pages": [12],
+      "statement": "Quyida berilgan ma’nolarga mos bo‘lgan shakldosh iborani toping.\n\n1) Me’yoriga keldi, avvalgi holatiga qaytdi.\n2) Payini poyladi, ta’qib qildi.\n\nHar ikki ma’noga mos bitta iborani yozing."
+    },
+    {
+      "number": 37, "kind": "written", "pages": [12],
+      "statement": "Berilgan gapda tinish belgisi bilan bog‘liq xatolikni toping va uni to‘g‘rilang.\n\nBiri hayotdagi qiyinchiliklardan nolib, omadi chopmayotganini aytdi. Shunda ikkinchisi do‘stining yelkasiga qo‘lini qo‘yib, Albert Eynshteynning mashhur gapini eslatdi; “Xatoga yo‘l qo‘ymagan inson hech qachon yangi narsani sinab ko‘rmagan bo‘ladi”.\n\nXato qo‘llangan tinish belgisi va uning o‘rniga qo‘llanishi lozim bo‘lgan to‘g‘ri tinish belgisini quyidagi tartibda yozing: [Xato] → [To‘g‘ri]."
+    },
+    {
+      "number": 38, "kind": "written", "pages": [13],
+      "statement": "Berilgan gapda qo‘shimcha xato qo‘llangan so‘zni toping va shu so‘zni to‘g‘rilab yozing.\n\nYangi loyiha doirasida tuzilgan reja, tanlangan mutaxassislar va samarali foydalangan resurslar tufayli kutilgan natijaga erishildi."
+    },
+    {
+      "number": 39, "kind": "written", "pages": [13],
+      "statement": "Berilgan gapda qavs yordamida ajratilishi kerak bo‘lgan kiritmani toping va yozing.\n\nHayotimning shu davriga kelib o‘sha paytda men 9-sinf edim haqiqiy do‘st qanday bo‘lishini ilk bor anglab yetgan edim."
+    },
+    {
+      "number": 40, "kind": "multipart", "pages": [13,14],
+      "statement": "Quyidagi gapni o‘qing va uslubiy xato qo‘llangan so‘zni aniqlang.\n\nTimsohning badani kuchli mushaklardan iborat bo‘lib, qalin terisi uni tashqi xavflardan himoya qiladi.",
+      "part_prompts": {"A": "Uslubiy xato qo‘llangan so‘zni yozing.", "B": "Uslubiy xato qo‘llangan so‘zni hokim so‘zga bog‘lab, so‘z birikmasi shaklida yozing."}
+    },
+    {
+      "number": 41, "kind": "multipart", "pages": [14],
+      "statement": "Berilgan gaplarni grammatik jihatdan to‘g‘ri bog‘lang:\n\n1. Shoirlik faqat inson kechinmalarini aks ettiruvchi san’at emas.\n2. Qalbning eng nozik tuyg‘ularini so‘z orqali jonlantira oladigan kuchdir.",
+      "part_prompts": {"A": "Birinchi va ikkinchi gaplarni qanday grammatik vosita yordamida bog‘lash mumkin?", "B": "Natijada qo‘shma gaplar orasida qanday mazmuniy munosabat yuzaga keladi?"}
+    },
+    {
+      "number": 42, "kind": "multipart", "pages": [14],
+      "statement": "She’riy parchadagi badiiy san’atlar haqidagi topshiriqni bajaring.\n\nQadding “alif”, qoshing “nun”, og‘zing erur “mim”,\nBu uch harf bilan “nam” bo‘ldi bu ko‘nglim.",
+      "part_prompts": {"A": "Birinchi misrada yorning turli tana a’zolarini arab harflariga o‘xshatish orqali qaysi san’at hosil bo‘lgan?", "B": "Ikkinchi misrada “nam” so‘zining hosil bo‘lishi qaysi san’atni vujudga keltirgan?"}
+    },
+    {
+      "number": 43, "kind": "multipart", "pages": [15],
+      "statement": "She’riy parchaning qofiyasini tahlil qiling.\n\nNe nav’ etay faryodkim, sargashtayi dahr o‘ldim,\nOrazing quyoshidin ayru bexud-u shahr o‘ldim.\n\nPDFda ajratib ko‘rsatilgan qofiyadosh so‘zlar: “dahr”, “shahr”.",
+      "part_prompts": {"A": "Ajratib ko‘rsatilgan qofiyadosh so‘zlardagi raviyni toping.", "B": "Ajratib ko‘rsatilgan so‘zlar raviyning o‘rniga ko‘ra qofiyaning qaysi turini hosil qilgan?"}
+    },
+    {
+      "number": 44, "kind": "multipart", "pages": [15],
+      "statement": "Quyidagi she’riy parcha mazmunini tahlil qiling va savollarga javob yozing.\n\nMeni behol aylagan yor – oydurur,\nKim, aning vasli menga yoroydurur.\nGar visoli bo‘lmasa, ketar yerim\nYo Xuroson, yo Xito, yo Roydurur.",
+      "part_prompts": {"A": "She’riy parcha janrini aniqlang.", "B": "Ushbu janrni yuzaga keltirgan so‘zni she’rdan toping va yozing."}
+    }
+  ]
+}

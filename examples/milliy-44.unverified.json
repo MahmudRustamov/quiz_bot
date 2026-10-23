@@ -1,0 +1,1123 @@
+{
+  "schema_version": 1,
+  "title": "Ona tili va adabiyot — manba tekshiruvi kutilmoqda",
+  "subject": null,
+  "simple_release_policy": null,
+  "answer_review_enabled": true,
+  "duration_minutes": 180,
+  "policy": {
+    "boundaries": {
+      "A+": 70.0,
+      "A": 65.0,
+      "B+": 60.0,
+      "B": 55.0,
+      "C+": 50.0,
+      "C": 46.0
+    },
+    "missing_policy": "zero",
+    "min_students": 100,
+    "min_item_responses": 30,
+    "min_category_count": 5,
+    "pcm_assumptions_confirmed": false,
+    "assumptions_note": ""
+  },
+  "materials": [],
+  "questions": [
+    {
+      "number": 1,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "kind": "mcq",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "kind": "matching",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "kind": "matching",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "kind": "matching",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "kind": "written",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "kind": "written",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "kind": "written",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "kind": "written",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "kind": "multipart",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        },
+        {
+          "label": "B",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "kind": "multipart",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        },
+        {
+          "label": "B",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "kind": "multipart",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        },
+        {
+          "label": "B",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "kind": "multipart",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        },
+        {
+          "label": "B",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "kind": "multipart",
+      "statement": "",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_status": "PDF and answer-key image not provided; verify all content before publishing",
+        "weight_status": "1 point per element is a configurable simplified practice policy, not an official weight"
+      },
+      "needs_review": true,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        },
+        {
+          "label": "B",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    }
+  ]
+}

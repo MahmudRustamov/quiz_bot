@@ -1,0 +1,13 @@
+{
+  "pdf_filename": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+  "pdf_sha256": "4e2c5e90c8e3b0fd3799b4689826fc22aaa05b5562666a26f071fcea51ce7334",
+  "pdf_pages": 15,
+  "answer_key_source": "TEST JAVOBLARI image supplied in chat",
+  "review_date": "2026-10-23",
+  "transcription": "Local macOS Vision OCR followed by visual comparison of all 15 PDF pages. Question and answer-key content retained separately.",
+  "notes": [
+    "No official duration specified in the PDF; configurable 180-minute practice duration used.",
+    "Source page 7 contains a duplicated fragment; retained in reading passage.",
+    "Question 40 part labels repeat a) in PDF; second mapped to B using supplied key."
+  ]
+}

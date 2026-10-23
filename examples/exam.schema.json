@@ -1,0 +1,309 @@
+{
+  "$defs": {
+    "MaterialSpec": {
+      "additionalProperties": false,
+      "properties": {
+        "key": {
+          "pattern": "^[a-z0-9_-]{1,60}$",
+          "title": "Key",
+          "type": "string"
+        },
+        "title": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 50000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "source_pages": {
+          "items": {
+            "type": "integer"
+          },
+          "maxItems": 100,
+          "title": "Source Pages",
+          "type": "array"
+        }
+      },
+      "required": [
+        "key",
+        "title",
+        "text"
+      ],
+      "title": "MaterialSpec",
+      "type": "object"
+    },
+    "PartSpec": {
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "default": "",
+          "maxLength": 10,
+          "title": "Label",
+          "type": "string"
+        },
+        "prompt": {
+          "default": "",
+          "maxLength": 4000,
+          "title": "Prompt",
+          "type": "string"
+        },
+        "weight": {
+          "default": 1.0,
+          "exclusiveMinimum": 0,
+          "maximum": 100,
+          "title": "Weight",
+          "type": "number"
+        },
+        "accepted": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 100,
+          "title": "Accepted",
+          "type": "array"
+        },
+        "ignore_case": {
+          "default": true,
+          "title": "Ignore Case",
+          "type": "boolean"
+        },
+        "manual_review": {
+          "default": false,
+          "title": "Manual Review",
+          "type": "boolean"
+        }
+      },
+      "title": "PartSpec",
+      "type": "object"
+    },
+    "PolicySpec": {
+      "additionalProperties": false,
+      "properties": {
+        "boundaries": {
+          "additionalProperties": {
+            "type": "number"
+          },
+          "title": "Boundaries",
+          "type": "object"
+        },
+        "missing_policy": {
+          "default": "zero",
+          "enum": [
+            "zero",
+            "omit"
+          ],
+          "title": "Missing Policy",
+          "type": "string"
+        },
+        "min_students": {
+          "default": 100,
+          "maximum": 100000,
+          "minimum": 30,
+          "title": "Min Students",
+          "type": "integer"
+        },
+        "min_item_responses": {
+          "default": 30,
+          "minimum": 10,
+          "title": "Min Item Responses",
+          "type": "integer"
+        },
+        "min_category_count": {
+          "default": 5,
+          "minimum": 3,
+          "title": "Min Category Count",
+          "type": "integer"
+        },
+        "pcm_assumptions_confirmed": {
+          "default": false,
+          "title": "Pcm Assumptions Confirmed",
+          "type": "boolean"
+        },
+        "assumptions_note": {
+          "default": "",
+          "maxLength": 2000,
+          "title": "Assumptions Note",
+          "type": "string"
+        }
+      },
+      "title": "PolicySpec",
+      "type": "object"
+    },
+    "QuestionKind": {
+      "enum": [
+        "mcq",
+        "matching",
+        "written",
+        "multipart"
+      ],
+      "title": "QuestionKind",
+      "type": "string"
+    },
+    "QuestionSpec": {
+      "additionalProperties": false,
+      "properties": {
+        "number": {
+          "exclusiveMinimum": 0,
+          "maximum": 500,
+          "title": "Number",
+          "type": "integer"
+        },
+        "kind": {
+          "$ref": "#/$defs/QuestionKind"
+        },
+        "statement": {
+          "default": "",
+          "maxLength": 3000,
+          "title": "Statement",
+          "type": "string"
+        },
+        "options": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "maxProperties": 12,
+          "title": "Options",
+          "type": "object"
+        },
+        "image_file_id": {
+          "anyOf": [
+            {
+              "maxLength": 500,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Image File Id"
+        },
+        "material_keys": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 10,
+          "title": "Material Keys",
+          "type": "array"
+        },
+        "rubric": {
+          "additionalProperties": true,
+          "title": "Rubric",
+          "type": "object"
+        },
+        "needs_review": {
+          "default": false,
+          "title": "Needs Review",
+          "type": "boolean"
+        },
+        "pcm": {
+          "default": false,
+          "title": "Pcm",
+          "type": "boolean"
+        },
+        "parts": {
+          "items": {
+            "$ref": "#/$defs/PartSpec"
+          },
+          "maxItems": 2,
+          "minItems": 1,
+          "title": "Parts",
+          "type": "array"
+        }
+      },
+      "required": [
+        "number",
+        "kind",
+        "parts"
+      ],
+      "title": "QuestionSpec",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1,
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "title": {
+      "maxLength": 200,
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "subject": {
+      "anyOf": [
+        {
+          "maxLength": 200,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Subject"
+    },
+    "simple_release_policy": {
+      "anyOf": [
+        {
+          "enum": [
+            "immediate",
+            "manual"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Simple Release Policy"
+    },
+    "answer_review_enabled": {
+      "default": true,
+      "title": "Answer Review Enabled",
+      "type": "boolean"
+    },
+    "duration_minutes": {
+      "default": 180,
+      "exclusiveMinimum": 0,
+      "maximum": 1440,
+      "title": "Duration Minutes",
+      "type": "integer"
+    },
+    "policy": {
+      "$ref": "#/$defs/PolicySpec"
+    },
+    "materials": {
+      "items": {
+        "$ref": "#/$defs/MaterialSpec"
+      },
+      "maxItems": 100,
+      "title": "Materials",
+      "type": "array"
+    },
+    "questions": {
+      "items": {
+        "$ref": "#/$defs/QuestionSpec"
+      },
+      "maxItems": 500,
+      "title": "Questions",
+      "type": "array"
+    }
+  },
+  "required": [
+    "title"
+  ],
+  "title": "ExamSpec",
+  "type": "object"
+}

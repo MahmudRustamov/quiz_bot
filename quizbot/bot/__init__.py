@@ -1,0 +1,1 @@
+"""Uzbek Telegram interface."""

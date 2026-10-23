@@ -1,0 +1,1702 @@
+{
+  "schema_version": 1,
+  "title": "19.10 — Ona tili va adabiyot MS mock testi",
+  "subject": "Ona tili va adabiyot",
+  "simple_release_policy": null,
+  "answer_review_enabled": true,
+  "duration_minutes": 180,
+  "policy": {
+    "boundaries": {
+      "A+": 70.0,
+      "A": 65.0,
+      "B+": 60.0,
+      "B": 55.0,
+      "C+": 50.0,
+      "C": 46.0
+    },
+    "missing_policy": "zero",
+    "min_students": 100,
+    "min_item_responses": 30,
+    "min_category_count": 5,
+    "pcm_assumptions_confirmed": false,
+    "assumptions_note": ""
+  },
+  "materials": [
+    {
+      "key": "teleskop",
+      "title": "TELESKOP — 18–22-savollar uchun matn",
+      "text": "I\nOdamlar, albatta, eng qadimgi zamonlardan buyon tungi osmonni kuzatib kelishadi. Teleskoplar kashf etilishidan minglab yillar avval ham odamlarda allagachon yulduzlar xaritasi mavjud bo‘lgan va ajdodlarimiz yulduz turkumlarining joylashuviga qarab yil fasllari, hamda, boshqa muhim tabiat hodisalarining davriy takrorlanishini yaxshi bilishgan. Ular qo‘zg‘almas yulduzlarni yulduz turkumlariga birlashtirib, nom berib, tasniflab chiqishgan. Qo‘zg‘aluvchan, ya‘ni, joyini o‘zgartirib turadigan yulduzlarni esa ular \"sayr qiluvchi\" yulduzlar deb atashgan. Biz bilgan \"sayyora\" so‘zi shundan kelib chiqqan bo‘lib, qadimgi munajjimlar shu tariqa o‘zlari uchun yaqin va uzoq qo‘shnilarimiz - Quyosh sistemasidagi sayyoralarni kashf etishgan.\n\nII\nTeleskop vositasida kashf etilgan ilk sayyora esa Uran bo‘lgan edi. Uni 1781-yilda Angliyalik astronom Uilyam Gershel ochgan. Garchi, tungi osmonda Uran ba‘zan oddiy ko‘z bilan ham ko‘ra bo‘ladigan darajada ko‘rinsa-da, Gersheldan avvalgi astronomlar uni shunchaki oddiy xira yulduz deb o‘ylashgan.\n\nIII\nAslida, samoga teleskop bilan yuzlangan ilk astronom Gershel emas edi. Koinotni teleskop bilan kuzatishni boshlagan ilk odam Galileo Galiley bo‘lgan. Xususan, 1610-yilda u tomonidan teleskop vositasida Yupiterning to‘rtta tabiiy yo‘ldoshining aniqlanishi, ilm-fan uchun g‘oyat katta hodisa bo‘lgan edi. O‘sha voqea astronomiyaning butunlay o‘zgacha yo‘nalishga burib yuborgan. Odam ko‘z o‘ngida odatda butun boshli g‘uj yulduzlar to‘dasi bo‘lib ko‘rinadigan Somon Yo‘li teleskop vositasida alohida-alohida, dona-dona yulduzlarga parchalangan holda namoyon bo‘ldi. Inson koinotni teleskop bilan kuzatar ekan, ilgari oddiy ko‘z ilg‘ay olmagan yana minglab sondagi yangidan yangi yulduzlar kashf etildi. Oyda kraterlar borligi, yulduzimiz - Quyoshda esa dog‘lar mavjudligi aniqlandi.\n\nIV\nBu muhim kashfiyotlarning barchasi eng oddiy, optik teleskop vositasida - inson ko‘z bilan ko‘ra oladigan diapazondagi ma‘lumotlarni yetkazuvchi teleskoplari orqali amalga oshirildi. O‘sha paytlar, bunday teleskoplar faqat biz ko‘ra oladigan diapazondagi axborotni yetkaza olgan, xolos. Aytaylik, infraqizil va ultrabinafsha nurlar diapazonida tasvir hosil qilish imkoniyati bunday teleskoplarda hali mavjud emas edi.Bunday eng oddiy teleskoplarda muayyan osmon jismining kattalashtirilgan tasviri ko‘riladi yoki fotoapparat orqali suratga tushiriladi. Astronomiya hozirda ham bu kabi jo‘n teleskoplardan keng foydalanadi.\n\nV\n\"Xabbl\" teleskopi koinotga chiqqaniga deyarli 30 yil bo‘lib qoldi. Uni 1990-yilda \"Diskaveri\" shattli ekipaji Yerning yaqin tevarak orbitasiga, aniqrog‘i, 569 km balandlikka olib chiqib qo‘ygan edi. O‘tgan 28 yil mobaynida, NASA mutaxassislari \"Xabbl\"ga yana 5 marta borib kelishdi. Tashriflardan muddao - teleskopni ta‘mirlash va xizmat ko‘rsatish ishlarini bajarish bo‘lgan. Aslida \"Xabbl\" orbitaga chiqishidayoq asosiy ko‘zgusida nuqson hosil bo‘lgan edi. Ushbu nuqsonni bartaraf etish uchun 1993-yilda NASA ushbu kosmik teleskopga ta‘mir guruhi jo‘natishga majbur bo‘lgan. O‘shanda, teleskopga sferik aberratsiyani korreksiya qiluvchi maxsus tizim o‘rnatilgan edi. Ushbu tizimni o‘rnatish uchun esa, \"Xabbl\"ga avvaldan loyihaviy o‘rnatilgan boshqa bir muhim ilmiy uskuna - yuqori tezlikli fotometrdan voz kechishga to‘g‘ri kelgan.",
+      "source_pages": [
+        5
+      ]
+    },
+    {
+      "key": "myunodi",
+      "title": "Myunodi haqidagi parcha — 23–27-savollar uchun matn",
+      "text": "Ertasi kuni uy egasi meni kolyaskaga o‘tqazib, poytaxtni ko‘rsatgani olib bordi. Bu shahar Londondan ikki marta kichik, ko‘pi yarim xaroba. Yo‘lovchilar qandaydir yovvoyi ko‘rinishga ega. Hammasida juldur kiyim; ko‘zlarini ola-kula qilishib, tartibsiz holda ko‘chalarda izg‘ib yurishadi. Shahar darvozasidan chiqqach, dala yo‘li bilan ketdik. [1] Bu yerda turli-tuman asboblar bilan ishlayotgan ko‘pgina dehqonlarni ko‘rdim. Biroq ularning nima qilayotganliklarini hech tushuna olmadim, chunki dalada o‘t-o‘lan yoki bug‘doy poyasidan nom-u nishon ham yo‘q, yerlar bo‘lsa o‘ta unumdor edi. Ko‘rganlarimdan hayratga tushib, buning boisini tushuntirib berishni hamrohimdan so‘radim. Yo‘lda uchragan hamma odamlarning yuzida tashvish alomati, qayoqqadir shoshilishadi, shaharda ham, dalada ham ular nima bilandir mashg‘ul, ammo bu kuyib-pishib qilinayotgan harakatlarning hech natijasi ko‘rinmaydi. Aksincha, umrim bino bo‘lib, bunaqa yomon ishlov berilgan dalalarni ham, nari-beri qurilgan uylarni ham, rangi bir holatda va juldur kiyingan odamlarni ham hech uchratmaganman.\n\nMyunodi janoblari ancha e‘tiborli amaldor edi. U bir necha yil Lagado gubernatori bo‘lgan, ammo keyinroq, go‘yo qobiliyasizligi uchun bu lavozimdan chetlashtirilgan. Har holda uning qirol oldida hurmati bor, garchi aqli zo‘r bo‘lmasa-da, qirol uni ishonchli, mulohazali kishi deb hisoblaydi. Myunodi savolimga sipolik bilan qisqa javob berdi. U mening bu mamlakatda oz vaqt yashaganimni, mamlakat va uning aholisi haqida to‘liq tasavvurga ega bo‘lish uchun bu kifoya qilmasligini, har qanday xalq o‘ziga xos urf-odatlarga ega ekanligini aytish bilan kifoyalandi va gapni boshqa yoqqa burib yubordi. Uyga qaytganimizda esa u mendan: uyim sizga yoqdimi, uning arxitekturasida biror nuqson topmadingizmi, xizmatkorlarimning tashqi qiyofasi va kiyimi xususida qanday fikrdasiz, deb so‘radi. U bunaqa savollarni bemalol berishi mumkin edi, chunki uning uyidagi hamma narsa batartib, nozik va hashamatli edi. Men, janobi oliylari aql-zakovati, mashhurligi va davlati tufayli o‘z vatandoshlarining aqlsizligi yoki o‘ta qashshoqligi uchun boshlariga tushgan bema‘niliklardan saqlana olgan, deb javob qaytardim. Bunga javoban Myunodi, bunaqa suhbatlarni shahardan yigirma milya uzoqda joylashgan chorbog‘imda olib borilgani ma‘qul, dedi. Janobi oliylari, ertagayoq o‘sha yoqqa boramiz, deb taklif qildi, men bajonidil rozi bo‘ldim....\n\ntashlana boshladi. Anchadan beri bunaqa xushmanzarani ko‘rmagan edim. Janobi oliylari chehram ochilganini ko‘rib, xuddi shu yerdan o‘ziga qarashli mulk boshlanishini aytdi. Shunday dedi-yu, og‘ir bir xo‘rsinib, vatandoshlari xo‘jalikni yomon yuritayotgani hamda yomon o‘rnak ko‘rsatayotgani uchun undan nafratlanishayotganini ham qo‘shib qo‘ydi.\n\nMyunodi yo‘l-yo‘lakay e‘tiborimni fermerlarning yerga ishlov berishdagi turli-tuman usullariga qaratdi. Bu usullarning hammasi men uchun noma‘lum va mutlaq tushunib bo‘lmaydigan darajada edi, chunki dalalarda birorta ham boshoq yoki o‘t-o‘lanni ko‘rmadim .[2] Lekin uch soatgacha yo‘l bosganimizdan keyin manzara tubdan o‘zgardi. Chiroyli, hashamatli fermer uylari, atrofi devor bilan o‘ralgan polizlar, uzumzorlar, boshoqlarini ko‘tarolmay qolgan bug‘doyzorlar, yam-yashil o‘tloqlar ko‘zga tashlana boshladi. Anchadan beri bunaqa xushmanzarani ko‘rmagan edim. Janobi oliylari chehram ochilganini ko‘rib, xuddi shu yerdan o‘ziga qarashli mulk boshlanishini aytdi. Shunday dedi-yu, og‘ir bir xo‘rsinib, vatandoshlari xo‘jalikni yomon yuritayotgani hamda yomon o‘rnak ko‘rsatayotgani uchun undan nafratlanishayotganini ham qo‘shib qo‘ydi.\n\nNihoyat, uyga yetib keldik. Bu ko‘rkam, qadimiy arxitektura usulida qurilgan hashamatli bino edi. Fontanlar, bog‘lar, xiyobon va butazorlar oqilona, did bilan joylashtirilgan. Ko‘rganlarimni maqtashdan o‘zimni tiya olmadim, biroq janobi oliylari gaplarimga zarracha bo‘lsin e‘tibor bermadi. [3] Kechki ovqatdan keyin yolg‘iz qolganimizda u chuqur qayg‘u bilan ba‘zan keyingi moda talablariga ko‘ra uylarini qayta qurish hamda o‘z mulkida ekinga ishlov berishning yangicha usullarini qo‘llash haqida o‘ylayotganligini izhor qildi. Aks holda u mag‘rur, o‘zboshimcha, tantiq, nodon, haddidan oshgan odam, degan malomatga qolishi, oqibat-natijada qirol ham unga ishonchsizlik bilan qarashi mumkin ekan . Oliy hazratlarining busiz ham unga ishonchi yo‘qmish. U saroyda eshitish menga muyassar bo‘lmagan ba‘zi tafsilotlarni aytgandan keyin mendagi zavqlanishlar birdan so‘nishini tashvishlanib pisanda qildi. Axir yuqoridagi - oroldagi odamlarning hammasi oliyjanob o‘y-fikrlarga cho‘mganliklari uchun yerda nimalar bo‘layotganiga hech qachon e‘tibor berishmas ekan-da.\n\nUning menga aytganlarining mazmuni quyidagicha:\n\n[4] Bundan qirq yil muqaddam poytaxt aholisidan bir necha kishi - ba‘zilari ish bilan, boshqalari ko‘ngil xushi uchun Laputuga chiqishgan. Ular orolda besh oy yashab, matematikadan yuzaki bilim olgan va samoviy orolda yengiltakliklari ancha oshgan holda pastga qaytib tushishgan. Ular orolda yurishgan paytlarida yerdagi barcha muassasalarga nafrat ko‘zi bilan qarab, fan, san‘at, qonunlar, til va texnikani yangicha usulda qayta qurish loyihalarini tuza boshlashgan. Ana shu maqsadda ular qiroldan Lagadoda xayolparastlar Akademiyasi ta‘sis etish uchun imtiyoz olishadi. Bu fikr chunonam muvaffaqiyat qozonadiki, qirollikdagi kattaroq shaharlarning hammasida ana shunday akademiyalar ochiladi .\n\nAna shu akademiyalardagi professorlar yerlarga ishlov berish va imorat qurishning yangicha usullarini, turli hunar-kasblar uchun yangi mashina va asbob-uskunalarni kashf etishadi. Ular ana shu mashina va qurollar vositasi bilan bir kishi o‘n baravar ko‘p ish bajarishi mumkinligini ta‘kidlashadi. Ularning gapiga ko‘ra, kashf etilgan qurollar yordami bilan qandaydir biror hafta ichida juda mustahkam materialdan bag‘oyat katta qasr qurish mumkin. U hech qanday remont talab qilmay, abadiy turadi, yerdagi mevalar yilning istagan faslida pishaveradi, buning ustiga o‘sha mevalar hozirgilaridan yuz baravar katta bo‘ladi... Xullas, insoniyatni baxtiyor qilish yo‘lida ular o‘ylab chiqqan loyihalarni sanab tugatish qiyin. Afsuslanadigan joyi shuki, ana shu loyihalardan birontasi ham nihoyasiga yetkazilmagan, hozircha mamlakat bo‘lg‘usi farovonlikni kuta-kuta tashlandiq holga kelgan, uylar vayron bo‘lmoqda, odamlar esa och-nahor juldur kiyimlarda yurishibdi\n\n.Lekin bularning hammasi xayolparastlar ishtiyoqini zarracha ham susaytirmayapti. Aksincha, ular o‘z loyihalarini turmushga tatbiq qilish uchun katta umid va jon-jahdlari bilan intilishyapti.\n\nMyunodining o‘ziga kelsak, u o‘ta uddaburon odam, u eskicha taomillar tarafdori; ota-bobolari qurib ketgan uylarda yashaydi, har borada ularga taqlid qiladi, hech qanday yangiliklarni o‘ylab chiqarmaydi. Oliy nasab kishilardan hamda o‘rta dvoryanlardan ham bir necha kishi xuddi shunday yo‘l tutyapti. Biroq ularga o‘zlarining yalqovligi va oromi yo‘lida mamlakat muvaffaqiyatini qurbon qilayotgan, fanning nodon dushmanlari va jamiyatning zararkunanda a‘zolari sifatida nafrat ham ishonchsizlik bilan qaraladi. Janobi oliylari so‘zining oxirida menga boshqa tafsilotlarni bayon qilib o‘tirmasligini aytdi. Meni olib bormoqchi bo‘lgan Ulug‘ akademiyani shaxsan ko‘rgach, undan oladigan huzur-halovatimdan meni mahrum qilmaslikni u juda-juda xohlardi. U faqat biz turgan joydan uch milya naridagi tog‘ etagiga joylashgan xarobazorlarga e‘tibor berishimni iltimos qildi.\n\nQachonlardir o‘z qo‘rg‘onidan nariroqda - katta daryo bo‘yida uning suv tegirmoni bor ekan. Tegirmon uning o‘z xo‘jaligi uchun ham, ijarachilar xo‘jaligi uchun ham yaxshi xizmat qilarkan. [5] Bundan yetti yil muqaddam uning huzuriga xayolparastlar kompaniyasi tashrif buyuribdi va ana shu tegirmonni buzib, tog‘ etagiga yangisini qurishni taklif qilibdi. Ular tog‘ cho‘qqisida suv ombori vazifasini o‘taydigan uzun kanal qaziy boshlashibdi. Kanalga maxsus nasoslar bilan pastdan suv chiqarishmoqchi bo‘lishibdi. Ularning fikricha, suv tog‘ cho‘qqisida kuchli shamol hamda musaffo havoga duch kelib, tekis joydan oqayotgan daryoga qaraganda tezroq harakat qilarmish; bundan tashqari, suv tepadan tushayotib ikki baravardan ziyod kuchga ega bo‘larmish, shu vajdan tegirmon ham oldingidan ko‘ra ikki baravar tezroq ishlarmish. O‘sha paytlarda Myunodining saroy bilan munosabati buzilgandi. Ana shu munosabatni yaxshilash niyatida, do‘stlarining qistovi bilan, kompaniyaning taklifini qabul qiladi. Yuz kishidan ortiq kishi mashg‘ul bo‘lgan bu ish ikki yil davom etgach, ora yo‘lda to‘xtab qoladi. Xayolparastlar hamma aybni unga to‘nkab, o‘zlari quyon bo‘lishadi. O‘shandan buyon ular uni hamisha mazax qilishadi va boshqalarni ham, muvaffaqiyatga erishishga ana shunday kafillik berib, yuqoridagiday tajriba o‘tkazishga da‘vat qilishadi .\n\nOradan bir necha kun o‘tgach, shaharga qaytdik. Janobi oliylarining akademiyada uncha hurmati yo‘q ekan. Shu vajdan meni kuzatib borishni ep ko‘rmay, bu ishni do‘stlaridan biriga topshirdi. Mezbonim do‘stiga meni qiziqarli va yengil-yelpi loyihalarga o‘ta ishqiboz bir kishi sifatida tanishtirdi; aytganday, uning shunday deyishi haqiqatga yaqin edi, chunki yoshligimda zo‘r xayolparast edim.",
+      "source_pages": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "key": "gazal",
+      "title": "G‘azal — 28–32-savollar uchun matn",
+      "text": "1) Nuqtayi xoling ajab yo‘q la‘li xandon ustina,\nKim bo‘lur bir qatra doim obi hayvon ustina.\n\n2) Hajrin o‘qi to tikilmish ko‘ngluma, ey qoshi yo,\nLa‘lgun ashkimga o‘xshar xori mujgon ustina.\n\n3) Novakingga boqki, dog‘i hasratimdindur nishon.\nJavharikim, ko‘runur po‘lodi paykon ustina.\n\n4) Ey sabo, qonlik ko‘zumga ko‘yidin yetkur g‘ubor,\nRasm erur tufroq to‘kmak doimo qon ustina.\n\n5) Ishq tig‘idin buzug‘ ko‘nglumda erdi choklar,\nVahki, bo‘ldi bir sari bu dog‘i hijron ustina.\n\n6) La‘li serobing g‘amidin notavon jismim erur\nMisli xoshokeki, tushgay obi hayvon ustina.\n\n7) Ey Husayniy, yor kelsa naqdi jon aylay nisor,\nEl sochiq sochkan kibi dilxoh mehmon ustina",
+      "source_pages": [
+        11
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "kind": "mcq",
+      "statement": "To‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "injener, taassuf, masshtab",
+        "B": "iftixor, iqtidor, daxildor",
+        "C": "bayon, faravon, rango-rang",
+        "D": "kampozitor, tavsif, korxona"
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          1
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "A"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "kind": "mcq",
+      "statement": "To‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "mo‘l-ko‘lchilik, kundan kunga, rang-tus",
+        "B": "avto-bekat, karvon saroy, o‘tqopi",
+        "C": "ma’orif, e’tiqod, muqova",
+        "D": "bo‘z-tuproq, shirinmiya, kilovatt-soat."
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          1
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "A"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "kind": "mcq",
+      "statement": "So‘zning muqobili xato berilgan javobni aniqlang.\n\nPDFdagi chizma juftliklari quyida o‘qlar bilan ko‘rsatildi.",
+      "options": {
+        "A": "Negativ → haqorat",
+        "B": "Rekommendatsiya → tavsiya",
+        "C": "Abzas → xatboshi",
+        "D": "Sotsial → ijtimoiy"
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          1
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching.",
+        "layout_note": "Diagram labels and connections transcribed as text; no visual interpretation is needed beyond the included labels."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "A"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "kind": "mcq",
+      "statement": "Nutqda o‘zaro ma’nodosh bo‘la oladigan so‘zlar qatorini aniqlang.\n\nPDFdagi har bir uchburchakda uchala so‘z o‘zaro ikki tomonlama o‘qlar bilan bog‘langan; variantlarda shu uchliklar berildi.",
+      "options": {
+        "A": "Mavj ↔ To‘lqin ↔ To‘fon ↔ Mavj",
+        "B": "Keskir ↔ O‘tkir ↔ Sezgir ↔ Keskir",
+        "C": "Quruq ↔ Rasmiy ↔ Sovuq ↔ Quruq",
+        "D": "Shakl ↔ Hajm ↔ Sig‘im ↔ Shakl"
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          1
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching.",
+        "layout_note": "Diagram labels and connections transcribed as text; no visual interpretation is needed beyond the included labels."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "C"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "kind": "mcq",
+      "statement": "Gapdagi qo‘shimcha qo‘llash bilan bog‘liq xatolikni aniqlang.\n\nChin do‘st — qo‘lingizni ushlab turib, yuragingizni his qiladigan odamdir. U sizni har qanday holatingizda ham tushunib, og‘ir damlarda yoningizda turadi va hech qachon yolg‘iz qoldirmaydi.",
+      "options": {
+        "A": "Tushum kelishigi o‘rnida qaratqich kelishigini qo‘llash lozim.",
+        "B": "Orttirma nisbat qo‘shimchasi xato qo‘llangan.",
+        "C": "O‘zlik nisbati qo‘shimchasi bilan bog‘liq imloviy xatolik mavjud.",
+        "D": "Kesimlik qo‘shimchasi xato qo‘llangan."
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          1
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "D"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "kind": "mcq",
+      "statement": "Quyidagi qaysi gapda uslubiy xato qo‘llangan so‘z mavjud?",
+      "options": {
+        "A": "Qonunchilikka ko‘ra pul mablag‘larini naqdlashtirish yoki bir kartadan boshqa kartaga o‘tkazish uchun vositachilik haqi undiriladi.",
+        "B": "Elektron to‘lovlar bank kartalari, to‘lov talabnomalari, mobil hamyonlar yordamida to‘lov qilinadi.",
+        "C": "Ma’lumki, har qanday elekrton to‘lov to‘lov tizimining subyektlari o‘rtasida tuzilgan shartnomalar asosida amalga oshiriladi.",
+        "D": "Naqd pul shaklidagi to‘lovlarni amalga oshirish oson, ammo hozirda to‘lovlarni elektron amalga oshirish ham ancha qulay."
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          2
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "B"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "kind": "mcq",
+      "statement": "Berilgan parchadagi so‘zlarning morfem tarkibi haqidagi hukmlardan nechtasi to‘g‘ri?\n\nHamma uchun vijdon erkinligi kafolatlanadi. Har kim xohlagan dinga e’tiqod qilish yoki hech qaysi dinga e’tiqod qilmaslik huquqiga ega. Diniy qarashlarni majburan singdirishga yo‘l qo‘yilmaydi.\n\n1) Asosga yangi ma’no beruvchi qo‘shimchalarning ketma-ket qo‘shilishi kuzatilgan.\n2) Ikki xil usulda so‘z yasalishi kuzatilgan.\n3) Yordamchi fe’lni so‘z yasovchi qo‘shimcha bilan almashtirish mumkin.\n4) Gapda qo‘llangan ko‘makchini kelishik qo‘shimchasi bilan almashtirish mumkin.\n5) Gapda to‘rt xil turkumga oid so‘z yasovchi qo‘shimcha ishtirok etgan.",
+      "options": {
+        "A": "ikkitasi",
+        "B": "uchtasi",
+        "C": "to‘rttasi",
+        "D": "beshtasi"
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          2
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching.",
+        "layout_note": "Diagram labels and connections transcribed as text; no visual interpretation is needed beyond the included labels."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "C"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "kind": "mcq",
+      "statement": "Quyidagi parchada qatnashgan fe’l shakllari haqida nechta hukm to‘g‘ri ekanligini toping.\n\nDavlat fuqarolarning ekologik huquqlarini ta’minlash va atrof-muhitga zararli ta’sir ko‘rsatilishiga yo‘l qo‘ymaslik maqsadida shaharsozlik faoliyati sohasida jamoatchilik nazoratini amalga oshirish uchun shart-sharoitlar yaratadi.\n\n1. Sodda yasama fe’l qatnashgan.\n2. Qo‘shma fe’l qatnashgan.\n3. Ko‘makchi fe’l qatnashagan.\n4. Bo‘lishsiz fe’l qatnashgan.\n5. Uch xil nisbatdagi fe’l qatnashgan.",
+      "options": {
+        "A": "ikkitasi",
+        "B": "uchtasi",
+        "C": "to‘rttasi",
+        "D": "beshtasi"
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          2
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching.",
+        "layout_note": "Diagram labels and connections transcribed as text; no visual interpretation is needed beyond the included labels."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "C"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "kind": "mcq",
+      "statement": "Quyida raqamlar bilan ajratib ko‘rsatilgan so‘zlarni qaysi bog‘lovchilar vositasida bog‘lash mumkinligini aniqlang.\n\nChindan ham buyuklik [1] purviqor tog‘larda, [2] azim daryolarda, balki o‘zligini anglagan, ammo kamtarlikni libos qilgan inson qalbida yashaydi.",
+      "options": {
+        "A": "yo..., yo...",
+        "B": "goh..., goh...",
+        "C": "hamda",
+        "D": "na..., na..."
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          2
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "D"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "kind": "mcq",
+      "statement": "Gapning sintaktik tahliliga oid to‘g‘ri hukm berilgan javobni aniqlang.\n\nBilmaganidan bilishga intilmaslik — ayb, ammo bilgan xatolarini bila turib tuzatmaslik gunohdir.",
+      "options": {
+        "A": "Ravish holi ot kesimga to‘g‘ridan to‘g‘ri tobelangan.",
+        "B": "Sabab holini tobelantirgan ega mavjud",
+        "C": "Gapda kesimning ifodalanishiga ko‘ra ikki turi qo‘llangan.",
+        "D": "Vositasiz to‘ldiruvchi holga tobelangan."
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          2
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "B"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "kind": "mcq",
+      "statement": "Quyidagi gap haqida qaysi javobda xato ma’lumot berilgan?\n\nBu qadimiy obida temuriylar hukmronligi davrida qayta tiklangan edi.",
+      "options": {
+        "A": "Fe’lning fe’lga tobelanishi kuzatilgan.",
+        "B": "Qaralmish bevosita kesimga tobelangan.",
+        "C": "Yasama so‘zning yasama so‘zga tobelanishi bilan bog‘liq otli birikma qatnashgan.",
+        "D": "Ham tobe, ham hokim bo‘lak vazifasini bajargan ot qatnashgan."
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          3
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "A"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "kind": "mcq",
+      "statement": "Berilgan misralardagi tinish belgisi bilan bog‘liq xatolikni aniqlang.\n\nDunyoning tilagi – samari ham biz –\nAql ko‘zin qorasi – javhari ham biz.\nTo‘garak jahonni uzuk deb bilsak,\nShaksiz, uning ko‘zi – gavhari ham biz.",
+      "options": {
+        "A": "Bog‘lovchisiz qo‘shma gaplar orasidagi tinish belgisi xato qo‘llangan.",
+        "B": "Ajratilgan bo‘lakdan oldin kelgan tinish belgisida xatolik mavjud.",
+        "C": "Kiritmani ajratishda tinish belgisidan noo‘rin foydalanilgan.",
+        "D": "Ega va ot kesim o‘rtasidagi tinish belgisi tushib qolgan."
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          3
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "A"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "kind": "mcq",
+      "statement": "“Oq kema” asaridan olingan ushbu parcha mazmuni haqida to‘g‘ri mulohazani aniqlang.\n\n“Ko‘pni ko‘rgan kishilar keksa Mo‘minni Mo‘min chaqqon deb atashardi. Bu atrofda uni hamma tanirdi, u ham hammani tanirdi, u hammani bilardi. U ochiqko‘ngil, hatto sal-pal biladigan odamiga ham biron yaxshilik qilishga tayyorligi, har kimning xizmatiga hozir-u nozirligi, hammaga sadoqatli va xushmuomalaligi tufayli shunday laqab olgandi. Ammo tillani tekin tarqatishganda hech kim uchun qadri qolmaganidek, uning jonbozligi qadriga ham hech kim yetmasdi. Uning yoshidagi kishilarga qanday hurmat, izzatda bo‘lishmasin, Mo‘minga hech kim bunday munosabatda bo‘lmasdi. U bilan betakalluf muomala qilishardi”.",
+      "options": {
+        "A": "Tillani tekin tarqatish o‘sha vaqtlarda urf bo‘lgani uchun uning qadri insonlar orasida tushib ketgan edi.",
+        "B": "Mo‘min chol zamondan ortda qolgan, yosh avlod vakillari bilan til topishishi qiyin bo‘lgani uchun uni hech kim mensimasdi.",
+        "C": "Yoshlar orasida keksalarga bo‘lgan hurmat va ehtiromning susayib borayotgani jamiyat uchun achchiq oqibatlarga olib kelayotgani ta’kidlanadi.",
+        "D": "Odamlarning samimiylik, soddalik va har ishga jonbozlik ko‘rsatish kabi ulug‘ insoniy tuyg‘ularni mensimay qo‘ygani tanqid ostiga olingan."
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          3
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "D"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "kind": "mcq",
+      "statement": "“Kecha va kunduz” asaridan olingan ushbu parcha mazmuni haqida to‘g‘ri mulohazani aniqlang.\n\n“Hali ham ko‘p qimmatbaho narsalarni berding, Miryoqub. Sening madaniyatga xizmating katta... O‘tgan yil bir tarix kitobi bergan eding, u to‘g‘rida Petrograddagi kattakon majmualarga maqolalar yozdim. Sening nomingni ham ko‘rsatdim. Hozir u kitob to‘g‘risida Angliston, Farangiston va Lamsa (nemis) mamlakatlarida kattakon majmualarga ko‘p narsalar yozildi. Rahmat senga, Miryoqub! Katta xizmat qilding”.",
+      "options": {
+        "A": "Mahalliy xalq vakillarining yutuqlaridan boshqa millatlar ham bahramand bo‘layotgani ochib berilgan.",
+        "B": "Miryoqubning ilmga bo‘lgan rag‘bati qay daraja yuksak ekani qalamga olingan.",
+        "C": "Qo‘lyozmalarni qadrlaydigan g‘arblik ilmparvarlarning holati ko‘rsatilgan.",
+        "D": "Bosqinchilarning mahalliy qo‘lyozmalarni talon-toroj qilib, mamlakatdan olib chiqqib ketgani bayon etilgan."
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          3
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "D"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "kind": "mcq",
+      "statement": "“Temir xotin” asaridan olingan ushbu parcha mazmuni haqida to‘g‘ri mulohazani aniqlang.\n\n“Alomat: — Yig‘laysiz... (Qo‘llarini Qo‘chqorning boshi uzra harakatlantirib.) Yig‘laysiz... Chunki, juda ezilgansiz... Yuragingizga qil sig‘maydi... Ich-ichingizdan bir nima toshib kelyapti... Hech kimning rahmi kelmaydi, birov dardingizga sherik ham bo‘lmaydi... O‘z yog‘ingizga o‘zingiz qovrilib yashayapsiz... Aft-angoringizga bir qarang, qirqqa kirgan qirchillama yigisiz-u, ko‘rgan odam sizni ellikka kirgan deb o‘ylaydi. Qurib-qaqshab boryapsiz... Esingizni tanibsizki, tinmay mehnat qilasiz, lekin hech biringiz ikki bo‘lmaydi. Ro‘zg‘or, bola-chaqa tashvishi deysiz, afsuski, bu tashvishlarning cheki yo‘q. Ertalabdan kechgacha chumoliday g‘imir-g‘imir qilasiz-u, rohatini ko‘rmaysiz. Kiyib olgan kiyimingizga qarang, yengil sanoat yetishtirayotgan hamma brak mahsulot siz va sizga o‘xshaganlarga nasib qiladi. Bu nima? Shu issiqda kim neylon ko‘ylak kiyadi?”",
+      "options": {
+        "A": "Qo‘chqor timsolida dangasa, mana shu holatga ko‘nib yashaydigan loqayd insonlar ko‘rsatilgan.",
+        "B": "To‘xstovsiz mehnat qiladigan, ammo bu mehnatning rohatini ko‘ra olmayotgan millatning fojeaviy taqdiri ochib berilgan.",
+        "C": "O‘sha vaqtlarda aholi orasida neylon ko‘ylak urf bo‘lgani keltirilgan.",
+        "D": "Mehnatkash odamning xor bo‘lmasligi, albatta, uning xizmatlari munosib taqdirlanishi qalamga olingan."
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          3,
+          4
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "B"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "kind": "mcq",
+      "statement": "“Evrilish” asaridan olingan ushbu parchani o‘qing va qahramon holati haqida to‘g‘ri mulohazani aniqlang.\n\n“..Endi tonggacha Gregorning oldiga hech kim kirmaydi albatta, demak, buyog‘iga hayotini qanday o‘zgartirish to‘g‘risida birov xalaqit bermagan holda o‘ylab olish uchun yetarlicha vaqti bor edi. Ammo polda cho‘zilib yotishga majbur bo‘layotgan baland shiftli bo‘m-bo‘sh xona uni vahimaga solardi; u bu xonada mana besh yildan buyon yashayotgan bo‘lsa ham qo‘rqinchining sababini bilmasdi; u deyarli o‘ziga hisob bermagan holda o‘girilib, hech uyalmay, shoshilib divan ostiga o‘rmaladi, bu yer uning uchun tor, orqasi biroz qisilganligi, boshini ko‘tara olmasligiga qaramasdan o‘ziga qulay ekanligini darhol his qildi, faqat divan ostida to‘la o‘rnashib olishi uchun tanasi juda kengligidan afsuslandi. Bu yerda u butun tun bo‘yi qoldi, buning bir qismini tez-tez ochlik cho‘chitib, uyg‘otib turgan mudrash holida, qisman hozircha o‘zini tinch tutishi kerakligi, bugungi holati bilan oilasiga keltirgan tashvishlarni yengillashtirish uchun chidamli va itoatli bo‘lishga majburligi to‘g‘risidagi xulosaga muttasil olib keladigan g‘am-fig‘onda va alg‘ov-dalg‘ov umidlarda o‘tkazdi”.",
+      "options": {
+        "A": "Qahramonning hayoti asta-sekin zulmat tomonga og‘ayotganini his qilgan holda, yolg‘izlik, qo‘rquv va o‘zini past tutish hissi bilan iztirob chekayotgan ruhiy holati tasvirlangan.",
+        "B": "Vaziyatni sovuqqonlik bilan baholab, kelajakka aniq reja tuzayotgan va ichki barqarorlikni saqlab qolgan holat aks ettirilgan.",
+        "C": "Oilasi oldidagi burchini chuqur his qilgan, mas’uliyatli va vaziyatni yengish uchun faol choralar izlayotgan inson holati ko‘rsatilgan.",
+        "D": "Atrofdagi voqealarga befarq, hissiy jihatdan mutlaqo loqayd ruhiy kechinmalar ochib berilgan."
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          4
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "A"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "kind": "mcq",
+      "statement": "Abdulla Oripov qalamiga mansub quyidagi she’riy parcha mazmuniga oid to‘g‘ri hukmni aniqlang.\n\nHAR NECHUK\nDunyoda har kimning bor o‘z matlabi,\nTuya so‘rab bo‘lmas echkiboqardan.\nPismiqdan faylasuf chiqmagan kabi,\nHaqgo‘y ham chiqmaydi betgachopardan.\n\nKimo‘zar o‘ynasang toshbaqa bilan,\nBo‘yningga olursan unga tenglikni.\nDunyoning ishlari shunaqa ekan,\nHar nechuk odat qil fe’li kenglikni.",
+      "options": {
+        "A": "Har qanday vaziyatda ham haqiqatni odamlarning yuziga shartta aytish.",
+        "B": "O‘zidan past yoki saviyasi past kimsalar bilan bahslashib, ularga o‘z ustunligini isbotlash.",
+        "C": "Atrofdagilarning imkoniyati va tabiatini to‘g‘ri baholab, mayda gap-so‘zlarga e’tibor bermaslik.",
+        "D": "Faqat yuqori martabali va imkoniyati keng insonlar bilan muloqotda bo‘lish."
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          4
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "C"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "kind": "mcq",
+      "statement": "Matn mazmuniga oid to‘g‘ri ma’lumotni aniqlang.",
+      "options": {
+        "A": "Quyosh sistemasidagi sayyoralar teleskop ixtiro etilgandan so‘nggina kashf qilina boshlagan.",
+        "B": "Olimlar “Xabbl” teleskopini ta’mirlash vaqtida uning tarkibiy tuzilishini o‘zgartirishga majbur bo‘lishgan.",
+        "C": "Uilyam Gershel teleskopdan foydalangan ilk olim hisoblangan.",
+        "D": "Galileo Galiley teleskop orqali Yupiter sayyorasini kashf etgan."
+      },
+      "image_file_id": null,
+      "material_keys": [
+        "teleskop"
+      ],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          5,
+          6
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "B"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "kind": "mcq",
+      "statement": "Matn mazmuniga oid to‘g‘ri ma’lumotni aniqlang.",
+      "options": {
+        "A": "Gerdshelgacha odamlar Uran sayyorasi haqida hech qanday tasavvurga ega bo‘lishmagan.",
+        "B": "Teleskop astronomiyaga nafaqat yangi osmon jismlarini kashf etish, balki ilgari noto‘g‘ri talqin qilingan obyektlarni qayta tushunish imkonini ham bergan.",
+        "C": "Uilyam Gershel tomonidan Uran sayyorasini kashf etish astronomiyada tub burilish yasagan.",
+        "D": "“Xabbl” teleskopi osmon jismlarini Yer sathidan kuzatuvchi mukammal teleskoplardan biri hisoblangan."
+      },
+      "image_file_id": null,
+      "material_keys": [
+        "teleskop"
+      ],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          6
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "B"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "kind": "mcq",
+      "statement": "Matn mazmuniga oid noto‘g‘ri ma’lumotni aniqlang.",
+      "options": {
+        "A": "Qadimgi olimlar sayyoralarning harakatlanish yo‘nalishini bilmaganliklari bois ularni yulduz sifatida talqin etishgan.",
+        "B": "Qadimgi munajjimlar qo‘zg‘almas yulduzlarni turkumlarga birlashtirib, ularga nom bergan va tasniflaganlar.",
+        "C": "Teleskopning kashf etilishi Oy va Quyoshni yanada chuqurroq tadqiq etishga zamin yaratdi.",
+        "D": "Ilk teleskoplar inson ko‘ra oladigan diapazondagi axborotlarnigina o‘rganish imkoniyatini bergan."
+      },
+      "image_file_id": null,
+      "material_keys": [
+        "teleskop"
+      ],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          6
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "A"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "kind": "mcq",
+      "statement": "Matn mazmuniga oid noto‘g‘ri ma’lumotni aniqlang.",
+      "options": {
+        "A": "Qadimgi odamlar yulduz turkumlari yordamida yil fasllari va tabiat hodisalarining davriy takrorlanishini aniqlashga erishganlar.",
+        "B": "Galileo Galilei teleskop yordamida Jupiterning to‘rtta tabiiy yo‘ldoshini kuzatgan va bu ilm-fan uchun muhim kashfiyot bo‘lgan.",
+        "C": "Uran sayyorasi bilan bir qatorda Yupiter ham aynan teleskop orqali kashf etilgan.",
+        "D": "“Xabbl” orbitaga chiqarilgach, uning optik tizimidagi nuqsonni tuzatish uchun maxsus korreksiya tizimi o‘rnatilgan."
+      },
+      "image_file_id": null,
+      "material_keys": [
+        "teleskop"
+      ],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          6
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "C"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "kind": "mcq",
+      "statement": "Matnning qaysi qismida matn mazmunida uslubiy xatolikni yuzaga keltirgan gap mavjud?",
+      "options": {
+        "A": "1",
+        "B": "5",
+        "C": "4",
+        "D": "3"
+      },
+      "image_file_id": null,
+      "material_keys": [
+        "teleskop"
+      ],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          6
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "C"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "kind": "mcq",
+      "statement": "Matnning [1] qismida tasvirlangan holatga ko‘ra, shahar va qishloq xo‘jaligi haqida qanday xulosa qilish mumkin?",
+      "options": {
+        "A": "Shahar va qishloq xo‘jaligi yuqori darajada rivojlangan, odamlar tinch va farovon yashamoqda.",
+        "B": "Jamiyatda tashqi harakat ko‘p bo‘lsa-da, amalda unumdorlik va natija yo‘q, hamma narsa tartibsiz va samarasiz.",
+        "C": "Dehqonlar eski usullar bilan ishlashiga qaramay, hosildorlik barqaror saqlanib turibdi.",
+        "D": "Shahar aholisi asosan ilm-fan bilan shug‘ullanib, dalalarda ish kamaygan."
+      },
+      "image_file_id": null,
+      "material_keys": [
+        "myunodi"
+      ],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          10
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "B"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "kind": "mcq",
+      "statement": "Matnning [2] qismida tasvirlangan voqealar rivojiga ko‘ra, muallif kuzatuvida qaysi holat kontrast (qarama-qarshilik) sifatida berilgan?",
+      "options": {
+        "A": "Myunodi an’anaviy usullari bilan boshqarilgan unumdor, tartibli yerlar bilan xayolparastlar tajribalari sabab samarasiz va natijasiz qolgan dalalar o‘rtasidagi keskin farq.",
+        "B": "Shahar va qishloq o‘rtasidagi yerlarning unumdorligi va hosilga ishlov berish texnologiyalari o‘rtasidagi tafovut.",
+        "C": "Turli xil yo‘llar bilan boylik orttirgan va xalq ahvoliga befarq Myunodi va dehqonlar o‘rtasidagi ochiq mojaro va qarama-qarshilik.",
+        "D": "Yerlarning tabiiy sharoiti va iqlim o‘zgarishlari o‘rtasidagi bog‘liqlik."
+      },
+      "image_file_id": null,
+      "material_keys": [
+        "myunodi"
+      ],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          10
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "A"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "kind": "mcq",
+      "statement": "Matnning [3] qismida Myunodi holati qanday g‘oyani ifodalaydi?",
+      "options": {
+        "A": "U o‘z qadriyatlariga sodiq qolib, jamiyat fikridan mustaqil yashashni davom ettiradi.",
+        "B": "U jamiyat bosimi va tanqidlardan qochib, butunlay saroy hayotidan voz kechadi.",
+        "C": "U jamiyat talablariga moslashish uchun o‘z qadriyatlaridan asta-sekin voz kechishga majbur bo‘layotganini ko‘rsatadi.",
+        "D": "U jamiyatdagi yangi g‘oyalarni qo‘llab-quvvatlab, ularni faol targ‘ib qila boshlaydi."
+      },
+      "image_file_id": null,
+      "material_keys": [
+        "myunodi"
+      ],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          10
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "C"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "kind": "mcq",
+      "statement": "Matnning [4] qismida “xayolparastlar akademiyasi” faoliyati orqali qanday asosiy g‘oya ifodalanadi?",
+      "options": {
+        "A": "Ilm-fan rivoji faqat amaliy natija bermaydigan, hayotdan uzilgan g‘oyalar orqali yuzaga keladi",
+        "B": "Fan va texnika rivoji real hayot ehtiyojlariga tayanmaganda, katta va’dalarga qaramay jamiyatda tanazzul va tartibsizlik kuchayadi",
+        "C": "Akademiyalar faqat matematik bilimlarni chuqurlashtirish bilan shug‘ullanishi kerak",
+        "D": "Ilmiy loyihalar har doim tez natija berib, qisqa muddatda jamiyatni boyitadi"
+      },
+      "image_file_id": null,
+      "material_keys": [
+        "myunodi"
+      ],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          10
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "B"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "kind": "mcq",
+      "statement": "Matnning [5] qismida Myunodi va xayolparastlar o‘rtasidagi tegirmon loyihasi orqali qanday asosiy g‘oya ifodalanadi?",
+      "options": {
+        "A": "Amaliy tajriba va real sharoit hisobga olinmagan loyihalar odatda muvaffaqiyasizlikka uchraydi va jamiyatda ishonchsizlikni kuchaytiradi.",
+        "B": "Texnologik yangiliklar har doim an’anaviy usullardan ustun bo‘lib, tez va samarali natija beradi",
+        "C": "Myunodi ilmiy yangiliklarni to‘liq qo‘llab-quvvatlab, loyihani muvaffaqiyatli yakunlaydi.",
+        "D": "Tegirmon qurilishi faqat davlat aralashuvi bilan amalga oshiriladigan jarayondir."
+      },
+      "image_file_id": null,
+      "material_keys": [
+        "myunodi"
+      ],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          10
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "A"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "kind": "mcq",
+      "statement": "G‘azal matla’si haqida berilgan to‘g‘ri hukmni aniqlang.",
+      "options": {
+        "A": "Baytda xolning nuqtaday kichikligi litota san’atini hosil qilgan.",
+        "B": "Yorning so‘zlari obi hayvon ustidagi tomchiga qiyoslangan.",
+        "C": "Yor labi ustidagi nuqtadek xol husni ta’lil san’atini vujudga keltirgan.",
+        "D": "La’l so‘zi orqali yor so‘zlari nazarda tutilgan."
+      },
+      "image_file_id": null,
+      "material_keys": [
+        "gazal"
+      ],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          11
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "A"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "kind": "mcq",
+      "statement": "2-bayt haqida berilgan xato hukmni aniqlang.",
+      "options": {
+        "A": "Yorning qoshlari kamonga qiyoslangan.",
+        "B": "Ko‘ngilga qadalgan hajr o‘qi kiprik ustidagi qonli yoshga qiyoslangan.",
+        "C": "Baytda nido san’ati orqali yorga murojaat qilingan.",
+        "D": "Yorning kipriklari oshiq qonini to‘kishi tashxis san’ati vujudga keltirgan."
+      },
+      "image_file_id": null,
+      "material_keys": [
+        "gazal"
+      ],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          11
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "D"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "kind": "mcq",
+      "statement": "4-bayt haqida xato hukmni aniqlang.",
+      "options": {
+        "A": "Baytda oshiqning saboga murojaati aks ettirilgan.",
+        "B": "Baytda tamsil san’atining chiroyli namunasi aks etgan.",
+        "C": "Oshiq shamoldan o‘z ustiga tuproq sochishni so‘raydi.",
+        "D": "Baytda qon to‘kilgan yerga tuproq sochish an’anasi keltirilgan."
+      },
+      "image_file_id": null,
+      "material_keys": [
+        "gazal"
+      ],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          11
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "C"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "kind": "mcq",
+      "statement": "G‘azal mazmuniga oid qaysi ma’lumot to‘g‘ri ekanligini aniqlang.",
+      "options": {
+        "A": "Yorning sochlari alliteratsiya san’ati orqali tasvirlangan.",
+        "B": "Yor lablarining g‘amlari sababli oshiq jismi qurigan xasga qiyoslangan.",
+        "C": "Ko‘ngil choklarining davosi uchun ishq tig‘ini hozirlamoq lozimligi keltirilgan.",
+        "D": "Yorning kipriklari oshiq holiga hasrat qilishi mavjud."
+      },
+      "image_file_id": null,
+      "material_keys": [
+        "gazal"
+      ],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          11
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "B"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "kind": "mcq",
+      "statement": "G‘azal maqta’si haqida berilgan noto‘g‘ri hukmni toping.",
+      "options": {
+        "A": "Oshiq yor uchun jonini berishga ham tayyor.",
+        "B": "Baytda xalqimizning mehmon ustidan sochiq sochish an’anasi haqida so‘z boradi.",
+        "C": "Yor ko‘ngilga yaqin mehmonga qiyoslangan.",
+        "D": "Oshiq tashrifidan xursand yorning sochiq sochishi keltirilgan."
+      },
+      "image_file_id": null,
+      "material_keys": [
+        "gazal"
+      ],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          11
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "D"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "kind": "matching",
+      "statement": "Berilgan gap va sintaktik tahlilga oid izohni (A–F) to‘g‘ri moslashtiring.\n\nBoshginamga ag‘anagan katta tog‘lar, alvido!\nMen ketarman hasratlanib ruhi sog‘lar, alvido!",
+      "options": {
+        "A": "atov gap",
+        "B": "umumlashtiruvchi bo‘lak",
+        "C": "so‘z-gap",
+        "D": "ajratilgan bo‘lakli gap",
+        "E": "ritorik so‘roq gap",
+        "F": "shaxsi noma’lum gap"
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          12
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "C"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "kind": "matching",
+      "statement": "Berilgan gaplar va sintaktik tahlilga oid izohni (A–F) to‘g‘ri moslashtiring.\n\nYigitning paltosi... Yo‘q, yodimda yo‘q...\nAniq, ko‘m-ko‘k edi qizning paltosi.\nBellarini quchgan belbog‘i ham ko‘k.\nHatto ko‘m-ko‘k edi to‘rtta tugmasi...",
+      "options": {
+        "A": "atov gap",
+        "B": "umumlashtiruvchi bo‘lak",
+        "C": "so‘z-gap",
+        "D": "ajratilgan bo‘lakli gap",
+        "E": "ritorik so‘roq gap",
+        "F": "shaxsi noma’lum gap"
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          12
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "A"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "kind": "matching",
+      "statement": "Berilgan gaplar va sintaktik tahlilga oid izohni (A–F) to‘g‘ri moslashtiring.\n\nFazilatim, kam ila ko‘stim\nSizga ma’lum, olmoq kerak tan.\nO‘zim mergan bo‘lmagach, do‘stim,\nKimlarningdir otgan o‘qiman.",
+      "options": {
+        "A": "atov gap",
+        "B": "umumlashtiruvchi bo‘lak",
+        "C": "so‘z-gap",
+        "D": "ajratilgan bo‘lakli gap",
+        "E": "ritorik so‘roq gap",
+        "F": "shaxsi noma’lum gap"
+      },
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          12
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "F"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "kind": "written",
+      "statement": "Quyida berilgan ma’nolarga mos bo‘lgan shakldosh iborani toping.\n\n1) Me’yoriga keldi, avvalgi holatiga qaytdi.\n2) Payini poyladi, ta’qib qildi.\n\nHar ikki ma’noga mos bitta iborani yozing.",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          12
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching.",
+        "layout_note": "Diagram labels and connections transcribed as text; no visual interpretation is needed beyond the included labels."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "iziga tushmoq"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "kind": "written",
+      "statement": "Berilgan gapda tinish belgisi bilan bog‘liq xatolikni toping va uni to‘g‘rilang.\n\nBiri hayotdagi qiyinchiliklardan nolib, omadi chopmayotganini aytdi. Shunda ikkinchisi do‘stining yelkasiga qo‘lini qo‘yib, Albert Eynshteynning mashhur gapini eslatdi; “Xatoga yo‘l qo‘ymagan inson hech qachon yangi narsani sinab ko‘rmagan bo‘ladi”.\n\nXato qo‘llangan tinish belgisi va uning o‘rniga qo‘llanishi lozim bo‘lgan to‘g‘ri tinish belgisini quyidagi tartibda yozing: [Xato] → [To‘g‘ri].",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          12
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching.",
+        "format_variants": "Spaces around the arrow and ASCII -> are explicitly accepted representations of the supplied semicolon-to-colon correction."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "; → :",
+            ";→:",
+            "; -> :",
+            ";->:"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "kind": "written",
+      "statement": "Berilgan gapda qo‘shimcha xato qo‘llangan so‘zni toping va shu so‘zni to‘g‘rilab yozing.\n\nYangi loyiha doirasida tuzilgan reja, tanlangan mutaxassislar va samarali foydalangan resurslar tufayli kutilgan natijaga erishildi.",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          13
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "foydalanilgan"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "kind": "written",
+      "statement": "Berilgan gapda qavs yordamida ajratilishi kerak bo‘lgan kiritmani toping va yozing.\n\nHayotimning shu davriga kelib o‘sha paytda men 9-sinf edim haqiqiy do‘st qanday bo‘lishini ilk bor anglab yetgan edim.",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          13
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching.",
+        "format_variants": "Only the four explicitly listed apostrophe variants are accepted; no words are changed or omitted."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "",
+          "prompt": "",
+          "weight": 1.0,
+          "accepted": [
+            "o‘sha paytda men 9-sinf edim",
+            "o'sha paytda men 9-sinf edim",
+            "oʻsha paytda men 9-sinf edim",
+            "o’sha paytda men 9-sinf edim"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "kind": "multipart",
+      "statement": "Quyidagi gapni o‘qing va uslubiy xato qo‘llangan so‘zni aniqlang.\n\nTimsohning badani kuchli mushaklardan iborat bo‘lib, qalin terisi uni tashqi xavflardan himoya qiladi.",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          13,
+          14
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching.",
+        "source_note": "PDF page 14 labels both parts 'a)'. The second is mapped to B, consistently with the supplied A/B answer key."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Uslubiy xato qo‘llangan so‘zni yozing.",
+          "weight": 1.0,
+          "accepted": [
+            "badan"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        },
+        {
+          "label": "B",
+          "prompt": "Uslubiy xato qo‘llangan so‘zni hokim so‘zga bog‘lab, so‘z birikmasi shaklida yozing.",
+          "weight": 1.0,
+          "accepted": [
+            "badani iborat"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "kind": "multipart",
+      "statement": "Berilgan gaplarni grammatik jihatdan to‘g‘ri bog‘lang:\n\n1. Shoirlik faqat inson kechinmalarini aks ettiruvchi san’at emas.\n2. Qalbning eng nozik tuyg‘ularini so‘z orqali jonlantira oladigan kuchdir.",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          14
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Birinchi va ikkinchi gaplarni qanday grammatik vosita yordamida bog‘lash mumkin?",
+          "weight": 1.0,
+          "accepted": [
+            "balki"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        },
+        {
+          "label": "B",
+          "prompt": "Natijada qo‘shma gaplar orasida qanday mazmuniy munosabat yuzaga keladi?",
+          "weight": 1.0,
+          "accepted": [
+            "zidlik"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "kind": "multipart",
+      "statement": "She’riy parchadagi badiiy san’atlar haqidagi topshiriqni bajaring.\n\nQadding “alif”, qoshing “nun”, og‘zing erur “mim”,\nBu uch harf bilan “nam” bo‘ldi bu ko‘nglim.",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          14
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Birinchi misrada yorning turli tana a’zolarini arab harflariga o‘xshatish orqali qaysi san’at hosil bo‘lgan?",
+          "weight": 1.0,
+          "accepted": [
+            "kitobat"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        },
+        {
+          "label": "B",
+          "prompt": "Ikkinchi misrada “nam” so‘zining hosil bo‘lishi qaysi san’atni vujudga keltirgan?",
+          "weight": 1.0,
+          "accepted": [
+            "istixroj"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "kind": "multipart",
+      "statement": "She’riy parchaning qofiyasini tahlil qiling.\n\nNe nav’ etay faryodkim, sargashtayi dahr o‘ldim,\nOrazing quyoshidin ayru bexud-u shahr o‘ldim.\n\nPDFda ajratib ko‘rsatilgan qofiyadosh so‘zlar: “dahr”, “shahr”.",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          15
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching.",
+        "layout_note": "The PDF underlines dahr and shahr; these words are explicitly identified in the student-facing statement."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Ajratib ko‘rsatilgan qofiyadosh so‘zlardagi raviyni toping.",
+          "weight": 1.0,
+          "accepted": [
+            "r"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        },
+        {
+          "label": "B",
+          "prompt": "Ajratib ko‘rsatilgan so‘zlar raviyning o‘rniga ko‘ra qofiyaning qaysi turini hosil qilgan?",
+          "weight": 1.0,
+          "accepted": [
+            "muqayyad"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "kind": "multipart",
+      "statement": "Quyidagi she’riy parcha mazmunini tahlil qiling va savollarga javob yozing.\n\nMeni behol aylagan yor – oydurur,\nKim, aning vasli menga yoroydurur.\nGar visoli bo‘lmasa, ketar yerim\nYo Xuroson, yo Xito, yo Roydurur.",
+      "options": {},
+      "image_file_id": null,
+      "material_keys": [],
+      "rubric": {
+        "source_pdf": "19.10_MS_MOCK_TEST_tahrirlangan.pdf",
+        "source_pages": [
+          15
+        ],
+        "answer_key_source": "User-supplied TEST JAVOBLARI image",
+        "raw_scoring_policy": "Simplified practice policy: one point per answer element, not an official weight",
+        "grading_policy": "Exact accepted variants after NFKC/whitespace normalization; ignore capitalization. No semantic matching.",
+        "format_variants": "The supplied key explicitly lists Yor oydurur / yoroydurur. The dash forms reproduce the first line in the supplied PDF."
+      },
+      "needs_review": false,
+      "pcm": false,
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "She’riy parcha janrini aniqlang.",
+          "weight": 1.0,
+          "accepted": [
+            "tuyuq"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        },
+        {
+          "label": "B",
+          "prompt": "Ushbu janrni yuzaga keltirgan so‘zni she’rdan toping va yozing.",
+          "weight": 1.0,
+          "accepted": [
+            "Yor oydurur",
+            "yoroydurur",
+            "yor – oydurur",
+            "yor — oydurur",
+            "yor - oydurur"
+          ],
+          "ignore_case": true,
+          "manual_review": false
+        }
+      ]
+    }
+  ]
+}

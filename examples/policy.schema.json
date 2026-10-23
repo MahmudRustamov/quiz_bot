@@ -1,0 +1,53 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "boundaries": {
+      "additionalProperties": {
+        "type": "number"
+      },
+      "title": "Boundaries",
+      "type": "object"
+    },
+    "missing_policy": {
+      "default": "zero",
+      "enum": [
+        "zero",
+        "omit"
+      ],
+      "title": "Missing Policy",
+      "type": "string"
+    },
+    "min_students": {
+      "default": 100,
+      "maximum": 100000,
+      "minimum": 30,
+      "title": "Min Students",
+      "type": "integer"
+    },
+    "min_item_responses": {
+      "default": 30,
+      "minimum": 10,
+      "title": "Min Item Responses",
+      "type": "integer"
+    },
+    "min_category_count": {
+      "default": 5,
+      "minimum": 3,
+      "title": "Min Category Count",
+      "type": "integer"
+    },
+    "pcm_assumptions_confirmed": {
+      "default": false,
+      "title": "Pcm Assumptions Confirmed",
+      "type": "boolean"
+    },
+    "assumptions_note": {
+      "default": "",
+      "maxLength": 2000,
+      "title": "Assumptions Note",
+      "type": "string"
+    }
+  },
+  "title": "PolicySpec",
+  "type": "object"
+}

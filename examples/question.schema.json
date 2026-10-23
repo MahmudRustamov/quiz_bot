@@ -1,0 +1,136 @@
+{
+  "$defs": {
+    "PartSpec": {
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "default": "",
+          "maxLength": 10,
+          "title": "Label",
+          "type": "string"
+        },
+        "prompt": {
+          "default": "",
+          "maxLength": 4000,
+          "title": "Prompt",
+          "type": "string"
+        },
+        "weight": {
+          "default": 1.0,
+          "exclusiveMinimum": 0,
+          "maximum": 100,
+          "title": "Weight",
+          "type": "number"
+        },
+        "accepted": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 100,
+          "title": "Accepted",
+          "type": "array"
+        },
+        "ignore_case": {
+          "default": true,
+          "title": "Ignore Case",
+          "type": "boolean"
+        },
+        "manual_review": {
+          "default": false,
+          "title": "Manual Review",
+          "type": "boolean"
+        }
+      },
+      "title": "PartSpec",
+      "type": "object"
+    },
+    "QuestionKind": {
+      "enum": [
+        "mcq",
+        "matching",
+        "written",
+        "multipart"
+      ],
+      "title": "QuestionKind",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "number": {
+      "exclusiveMinimum": 0,
+      "maximum": 500,
+      "title": "Number",
+      "type": "integer"
+    },
+    "kind": {
+      "$ref": "#/$defs/QuestionKind"
+    },
+    "statement": {
+      "default": "",
+      "maxLength": 3000,
+      "title": "Statement",
+      "type": "string"
+    },
+    "options": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "maxProperties": 12,
+      "title": "Options",
+      "type": "object"
+    },
+    "image_file_id": {
+      "anyOf": [
+        {
+          "maxLength": 500,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Image File Id"
+    },
+    "material_keys": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 10,
+      "title": "Material Keys",
+      "type": "array"
+    },
+    "rubric": {
+      "additionalProperties": true,
+      "title": "Rubric",
+      "type": "object"
+    },
+    "needs_review": {
+      "default": false,
+      "title": "Needs Review",
+      "type": "boolean"
+    },
+    "pcm": {
+      "default": false,
+      "title": "Pcm",
+      "type": "boolean"
+    },
+    "parts": {
+      "items": {
+        "$ref": "#/$defs/PartSpec"
+      },
+      "maxItems": 2,
+      "minItems": 1,
+      "title": "Parts",
+      "type": "array"
+    }
+  },
+  "required": [
+    "number",
+    "kind",
+    "parts"
+  ],
+  "title": "QuestionSpec",
+  "type": "object"
+}

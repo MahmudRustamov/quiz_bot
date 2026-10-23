@@ -1,0 +1,23 @@
+{
+  "source": "User-supplied TEST JAVOBLARI image in chat, 2026-10-23",
+  "multiple_choice_and_matching": {
+    "1": "A", "2": "A", "3": "A", "4": "C", "5": "D", "6": "B", "7": "C",
+    "8": "C", "9": "D", "10": "B", "11": "A", "12": "A", "13": "D", "14": "D",
+    "15": "B", "16": "A", "17": "C", "18": "B", "19": "B", "20": "A", "21": "C",
+    "22": "C", "23": "B", "24": "A", "25": "C", "26": "B", "27": "A", "28": "A",
+    "29": "D", "30": "C", "31": "B", "32": "D", "33": "C", "34": "A", "35": "F"
+  },
+  "written": {
+    "36": "iziga tushmoq",
+    "37": "; → :",
+    "38": "foydalanilgan",
+    "39": "o‘sha paytda men 9-sinf edim"
+  },
+  "multipart": {
+    "40": {"A": "badan", "B": "badani iborat"},
+    "41": {"A": "balki", "B": "zidlik"},
+    "42": {"A": "kitobat", "B": "istixroj"},
+    "43": {"A": "r", "B": "muqayyad"},
+    "44": {"A": "tuyuq", "B": ["Yor oydurur", "yoroydurur"]}
+  }
+}
